@@ -23,7 +23,7 @@ will generate `config/locales/devise.views.it.yml`.
 ## Submit or edit a translation for devise-i18n-views
  
 * Fork the latest master
-* Create a translation file or edit an existing one under `config/locales`
+* Create a translation file or edit an existing one under `locales`
 * Make a pull request
 
 ## Translation file stub 
