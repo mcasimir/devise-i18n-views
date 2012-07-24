@@ -18,6 +18,7 @@ en:
         greeting: "Hello %{recepient}!"
         message: "Your account has been locked due to an excessive amount of unsuccessful sign in attempts."
         instruction: "Click the link below to unlock your account:"
+        action: "Unlock my account"
     views:
       confirmations:
         new:
