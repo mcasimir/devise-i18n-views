@@ -19,10 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "devise-i18n-views.gemspec",
     "lib/devise-i18n-views.rb",
     "test/helper.rb",
     "test/test_devise-i18n-views.rb"
