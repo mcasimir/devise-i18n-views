@@ -4,7 +4,7 @@ I18n support and translations for **[Devise v2.+](https://github.com/plataformat
 
 ## Install
 
-Add the following line in your `Gemfile`
+Add the following line to your `Gemfile`
 
 ``` rb
 gem 'devise-i18n-views'
@@ -28,7 +28,7 @@ will generate `config/locales/devise.views.it.yml`.
 
 ## Translation file stub 
 
-Please refer to [config/locales/en.yml](https://github.com/mcasimir/devise-i18n-views/blob/master/config/locales/en.yml) to grab a stub for your translation
+Please refer to [devise-i18n-views/locales/en.yml](https://github.com/mcasimir/devise-i18n-views/blob/master/locales/en.yml) to grab a stub for your translation
 
 ## Copyright
 
