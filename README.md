@@ -17,7 +17,7 @@ Please refer to [config/locales/en.yml](https://github.com/mcasimir/devise-i18n-
 ## Submit or edit a translation for devise-i18n-views
  
 * Fork the latest master
-* Create a translation file or edit an existing one under `locales`
+* Create a translation file or edit an existing one under `config/locales`
 * Make a pull request
 
 ## Copyright
