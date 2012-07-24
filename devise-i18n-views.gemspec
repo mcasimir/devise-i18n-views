@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n-views"
-  s.version = "0.1.1"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
@@ -36,10 +36,11 @@ Gem::Specification.new do |s|
     "app/views/devise/sessions/new.html.erb",
     "app/views/devise/shared/_links.erb",
     "app/views/devise/unlocks/new.html.erb",
-    "config/locales/en.yml",
-    "config/locales/it.yml",
     "devise-i18n-views.gemspec",
-    "lib/devise-i18n-views.rb"
+    "lib/devise-i18n-views.rb",
+    "lib/generators/devise_i18n_views/locale/locale_generator.rb",
+    "locales/en.yml",
+    "locales/it.yml"
   ]
   s.homepage = "http://github.com/mcasimir/devise-i18n-views"
   s.licenses = ["MIT"]
