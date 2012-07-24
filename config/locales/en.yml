@@ -18,30 +18,30 @@ en:
           greeting: 'Hello %{recepient}!'
           message: 'Your account has been locked due to an excessive amount of unsuccessful sign in attempts.'
           instruction: 'Click the link below to unlock your account:'
-  views:
-    confirmations:
-      new:
-        resend_confirmation_instructions: "Resend confirmation instructions"
-    passwords:
-      new:
-        forgot_your_password: "Forgot your password?"
-        send_me_reset_password_instructions: "Send me reset password instructions"
-    registrations:
-      edit:
-        title: "Edit %{resource}"
-        leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
-        we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
-        cancel_my_account: "Cancel my account"
-        are_you_sure: "Are you sure?"
-      new:
-        sign_up: "Sign up"
-    sessions:
-      new:
-        sign_in: "Sign in"
-    links:
-      didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
-      didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
-      sign_in_with_provider: "Sign in with %{provider}"
-    unlocks:
-      new:
-        resend_unlock_instructions: "Resend unlock instructions"
+    views:
+      confirmations:
+        new:
+          resend_confirmation_instructions: "Resend confirmation instructions"
+      passwords:
+        new:
+          forgot_your_password: "Forgot your password?"
+          send_me_reset_password_instructions: "Send me reset password instructions"
+      registrations:
+        edit:
+          title: "Edit %{resource}"
+          leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
+          we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
+          cancel_my_account: "Cancel my account"
+          are_you_sure: "Are you sure?"
+        new:
+          sign_up: "Sign up"
+      sessions:
+        new:
+          sign_in: "Sign in"
+      links:
+        didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
+        didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
+        sign_in_with_provider: "Sign in with %{provider}"
+      unlocks:
+        new:
+          resend_unlock_instructions: "Resend unlock instructions"
