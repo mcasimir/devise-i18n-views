@@ -42,7 +42,8 @@ it:
       links:
         forgot_your_password: "Password dimenticata?"
         sign_up: "Registrati"
-        sign_in_with_provider: "Sign in with %{provider}"        
+        sign_in: "Accedi"
+        sign_in_with_provider: "Accedi con %{provider}"        
         didn_t_receive_confirmation_instructions: "Non hai ricevuto le istruzioni per la conferma?"
         didn_t_receive_unlock_instructions: "Non hai ricevuto le istruzioni per lo sblocco?"
       unlocks:

@@ -43,6 +43,7 @@ en:
         didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
         didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
         forgot_your_password: "Forgot your password?"
+        sign_in: "Sign in"
         sign_up: "Sign up"
         sign_in_with_provider: "Sign in with %{provider}"
       unlocks:
