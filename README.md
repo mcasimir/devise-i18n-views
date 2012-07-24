@@ -12,6 +12,7 @@ Add the following line in your `Gemfile`
 
 ## Translation file stub 
 
+Please see [en.yml][https://github.com/mcasimir/devise-i18n-views/blob/master/config/locales/en.yml] to grab a stub for your translation
 
 ## Submit or edit a translation for devise-i18n-views
  
