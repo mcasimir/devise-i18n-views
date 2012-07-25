@@ -1,6 +1,6 @@
-<p><%= t('devise.mailer.confirmation_instructions.greeting', :recepient => @resource.email, :default => "Welcome #{@resource.email}!") %></p>
+<p><%= t('.greeting', :recepient => @resource.email, :default => "Welcome #{@resource.email}!") %></p>
 
-<p><%= t('devise.mailer.confirmation_instructions.instruction', :default => "You can confirm your account email through the link below:") %></p>
+<p><%= t('.instruction', :default => "You can confirm your account email through the link below:") %></p>
 
-<p><%= link_to t('devise.mailer.confirmation_instructions.action', :default => "Confirm my account"),
+<p><%= link_to t('.action', :default => "Confirm my account"),
          confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>

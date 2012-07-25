@@ -12,10 +12,10 @@ gem 'devise-i18n-views'
 
 and run `bundle install`.
 
-Then you need to install the required translations in your `config/locales`. You can do this either manually (downloading them from [devise-i18n-views/locales](https://github.com/mcasimir/devise-i18n-views/tree/master/locales)) or through the apposite generator `devise_i18n_views:locale`, eg. 
+Then you need to install the required translations in your `config/locales`. You can do this either manually (downloading them from [devise-i18n-views/locales](https://github.com/mcasimir/devise-i18n-views/tree/master/locales)) or through the apposite generator `devise:views:locale`, eg. 
 
 ``` sh 
-rails g devise_i18n_views:locale it
+rails g devise:views:locale it
 ```
 
 will generate `config/locales/devise.views.it.yml`.
