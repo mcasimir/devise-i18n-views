@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n-views"
-  s.version = "0.2.0"
+  s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
-  s.date = "2012-07-24"
+  s.date = "2012-07-25"
   s.description = "I18n support for devise views"
   s.email = "maurizio.cas@gmail.com"
   s.extra_rdoc_files = [
@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
     "app/views/devise/unlocks/new.html.erb",
     "devise-i18n-views.gemspec",
     "lib/devise-i18n-views.rb",
-    "lib/generators/devise_i18n_views/locale/locale_generator.rb",
+    "lib/generators/devise/views/locale/locale_generator.rb",
     "locales/en.yml",
     "locales/it.yml"
   ]
