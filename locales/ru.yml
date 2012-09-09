@@ -1,0 +1,52 @@
+ru:
+  devise:
+    mailer:
+      confirmation_instructions:
+        subject: "Активация учетной записи"
+        greeting: "Привет %{recepient}!"
+        instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
+        action: "Активировать"
+      reset_password_instructions:
+        subject: "Запрос на изменение пароля"
+        greeting: "Привет %{recepient}!"
+        instruction: "Вы (или кто-то еще) запросили изменение пароля. Для изменение пароля нажимите ссылку ниже:"
+        action: "Изменить пароль"
+        instruction_2: "Если вы не запрашивали изменение пароля - проигнорируйте это сообщение"
+        instruction_3: "Ваш пароль не изменится пока вы не нажмете на ссылку и не введете новый."
+      unlock_instructions:
+        subject: "Инструкции для разблокировки учетной записи"
+        greeting: "Привет %{recepient}!"
+        message: "Ваша учетная запись была заблокирована в связи с превышением лимита неудачных попыток входа."
+        instruction: "Нажмите ссылку для активации учетной записи:"
+        action: "Разблокировать учетную запись"
+    confirmations:
+      new:
+        resend_confirmation_instructions: "Выслать повторно письмо с активацией"
+    passwords:
+      new:
+        forgot_your_password: "Забыли пароль?"
+        send_me_reset_password_instructions: "Выслать новый пароль"
+    registrations:
+      edit:
+        title: "Редактировать %{resource}"
+        leave_blank_if_you_don_t_want_to_change_it: "оставьте поле пустым, если не хотите ничего менять"
+        we_need_your_current_password_to_confirm_your_changes: "введите текущий пароль для подтверждения изменений"
+        cancel_my_account: "Удалить учетную запись"
+        are_you_sure: "Вы уверены?"
+      new:
+        sign_up: "Регистрация"
+    sessions:
+      new:
+        sign_in: "Войти"
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: "Не получили подтверждение?"
+        didn_t_receive_unlock_instructions: "Не получили код разблокировки?"
+        forgot_your_password: "Забыли пароль?"
+        sign_in: "Войти"
+        sign_up: "Регистрация"
+        sign_in_with_provider: "Войти с помощью: %{provider}"
+    unlocks:
+      new:
+        resend_unlock_instructions: "Выслать подтверждение заново"
+
