@@ -3,19 +3,19 @@ it:
     mailer:
       confirmation_instructions:
         subject: 'Istruzioni per la conferma'
-        greeting: 'Benvenuto %{recepient}!'
+        greeting: 'Benvenuto %{recipient}!'
         instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         action: 'Conferma il mio account'
       reset_password_instructions:
         subject: 'Istruzioni per resettare la password'
-        greeting: 'Ciao %{recepient}!'
+        greeting: 'Ciao %{recipient}!'
         instruction: 'Qualcuno ha richiesto di resettare la tua password, se lo vuoi davvero puoi farlo cliccando sul link qui sotto.'
         action: 'Cambia la mia password'
         instruction_2: "Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail."
         instruction_3: "La tua password non cambierà finchè non accederai al link sopra."
       unlock_instructions:
         subject: 'Istruzioni per lo sblocco'
-        greeting: 'Ciao %{recepient}!'
+        greeting: 'Ciao %{recipient}!'
         message: 'Il tuo account è stato bloccato a seguito di un numero eccessivo di tentativi di accesso falliti.'
         instruction: 'Clicca sul link qui sotto per sbloccare il tuo account:'
         action: "Sblocca il mio account"
