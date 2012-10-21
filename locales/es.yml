@@ -30,22 +30,22 @@ es:
       edit:
         are_you_sure: ¿Está usted seguro?
         cancel_my_account: Anular mi cuenta
-        leave_blank_if_you_don_t_want_to_change_it: 
-        title: 
-        we_need_your_current_password_to_confirm_your_changes: 
+        leave_blank_if_you_don_t_want_to_change_it: dejar en blanco si no desea cambiarlo
+        title: Editar %{resource}
+        we_need_your_current_password_to_confirm_your_changes: necesitamos su contraseña actual para confirmar los cambios
       new:
-        sign_up: 
+        sign_up: Registrarse
     sessions:
       new:
-        sign_in: 
+        sign_in: Iniciar sésion
     shared:
       links:
-        didn_t_receive_confirmation_instructions: 
-        didn_t_receive_unlock_instructions: 
-        forgot_your_password: 
-        sign_in: 
-        sign_in_with_provider: 
-        sign_up: 
+        didn_t_receive_confirmation_instructions: ¿No ha recibido las instrucciones de confirmación?
+        didn_t_receive_unlock_instructions: No ha recibido instrucciones para desbloquear?
+        forgot_your_password: ¿Ha olvidado su contraseña?
+        sign_in: Iniciar sésion
+        sign_in_with_provider: Iniciar sésion con %{provider}
+        sign_up: Registrarse
     unlocks:
       new:
-        resend_unlock_instructions: 
+        resend_unlock_instructions: Reenviar instrucciones para desbloquear
