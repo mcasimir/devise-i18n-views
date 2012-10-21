@@ -6,19 +6,19 @@ it:
     mailer:
       confirmation_instructions:
         action: Conferma il mio account
-        greeting: Benvenuto %{recepient}!
+        greeting: Benvenuto %{recipient}!
         instruction: ! 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       reset_password_instructions:
         action: Cambia la mia password
-        greeting: Ciao %{recepient}!
+        greeting: Ciao %{recipient}!
         instruction: Qualcuno ha richiesto di resettare la tua password, se lo vuoi davvero puoi farlo cliccando sul link qui sotto.
         instruction_2: Se non sei stato tu ad effettuare questa richiesta puoi ignorare questa mail.
         instruction_3: La tua password non cambierà finchè non accederai al link sopra.
         subject: Istruzioni per resettare la password
       unlock_instructions:
         action: Sblocca il mio account
-        greeting: Ciao %{recepient}!
+        greeting: Ciao %{recipient}!
         instruction: ! 'Clicca sul link qui sotto per sbloccare il tuo account:'
         message: Il tuo account è stato bloccato a seguito di un numero eccessivo di tentativi di accesso falliti.
         subject: Istruzioni per lo sblocco

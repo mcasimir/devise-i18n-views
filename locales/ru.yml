@@ -6,19 +6,19 @@ ru:
     mailer:
       confirmation_instructions:
         action: Активировать
-        greeting: Привет %{recepient}!
+        greeting: Привет %{recipient}!
         instruction: ! 'Вы можете активировать свою учетную запись, нажав ссылку снизу:'
         subject: Активация учетной записи
       reset_password_instructions:
         action: Изменить пароль
-        greeting: Привет %{recepient}!
+        greeting: Привет %{recipient}!
         instruction: ! 'Вы (или кто-то еще) запросили изменение пароля. Для изменение пароля нажимите ссылку ниже:'
         instruction_2: Если вы не запрашивали изменение пароля - проигнорируйте это сообщение
         instruction_3: Ваш пароль не изменится пока вы не нажмете на ссылку и не введете новый.
         subject: Запрос на изменение пароля
       unlock_instructions:
         action: Разблокировать учетную запись
-        greeting: Привет %{recepient}!
+        greeting: Привет %{recipient}!
         instruction: ! 'Нажмите ссылку для активации учетной записи:'
         message: Ваша учетная запись была заблокирована в связи с превышением лимита неудачных попыток входа.
         subject: Инструкции для разблокировки учетной записи

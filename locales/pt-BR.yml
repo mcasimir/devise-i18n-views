@@ -6,19 +6,19 @@ pt-BR:
     mailer:
       confirmation_instructions:
         action: Confirmar minha conta
-        greeting: Bem-vindo %{recepient}!
+        greeting: Bem-vindo %{recipient}!
         instruction: ! 'Você pode confirmar sua conta através do link abaixo:'
         subject: Instruções de confirmação
       reset_password_instructions:
         action: Redefinir minha senha
-        greeting: Olá %{recepient}!
+        greeting: Olá %{recipient}!
         instruction: Alguém fez o pedido para redefinir sua senha, e você pode fazer isso clicando no link abaixo.
         instruction_2: Se você não fez este pedido, por favor ignore este e-mail.
         instruction_3: Sua senha não será alterada até que você acesse o link abaixo e crie uma nova.
         subject: Instruções para redefinição da senha
       unlock_instructions:
         action: Desbloquear minha conta
-        greeting: Olá %{recepient}!
+        greeting: Olá %{recipient}!
         instruction: ! 'Clique no link abaixo para desbloquear sua conta:'
         message: Sua conta foi bloqueada devido ao excessivo número de tentativas acesso inválidas.
         subject: Instruções de desbloqueio
