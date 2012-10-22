@@ -26,6 +26,11 @@ en:
       new:
         forgot_your_password: Forgot your password?
         send_me_reset_password_instructions: Send me reset password instructions
+      edit:
+        change_your_password: Change your password
+        new_password: New password
+        confirm_new_password: Confirm new password
+        change_my_password: Change my password
     registrations:
       edit:
         are_you_sure: Are you sure?
