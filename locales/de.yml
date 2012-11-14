@@ -1,0 +1,51 @@
+de:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Anleitung zur Bestätigung noch mal schicken
+    mailer:
+      confirmation_instructions:
+        action: Mein Konto bestätigen
+        greeting: Willkommen %{recipient}!
+        instruction: ! 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
+        subject: Anleitung zur Bestätigung Ihres Accounts
+      reset_password_instructions:
+        action: Passwort ändern
+        greeting: Hallo %{recipient}!
+        instruction: Jemand hat einen Link angefordert, um Ihr Passwort zu ändern, und Sie können das durch den unten aufgeführten Link tun.
+        instruction_2: Wenn Sie das nicht angefordert haben, bitte ignorieren Sie diese E-mail.
+        instruction_3: Das Passwort wird nicht geändert bis Sie den obenstehenden Link abrufen, und ein neues Passwort bestimmen.
+        subject: Anleitung um das Passwort zurückzusetzten
+      unlock_instructions:
+        action: Mein Konto entsperren
+        greeting: Hallo %{recipient}!
+        instruction: ! 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu entsperren:'
+        message: Ihr Konto wurde aufgrund einer großen Anzahl von fehlgeschlagenen Anmeldeversuchen gesperrt.
+        subject: Anleitung um Ihr Konto zu entsperren
+    passwords:
+      new:
+        forgot_your_password: Haben Sie Ihr Passwort vergessen?
+        send_me_reset_password_instructions: Schicken Sie mir die Anleitung, mein Passwort zurückzusetzen
+    registrations:
+      edit:
+        are_you_sure: Sind Sie sicher?
+        cancel_my_account: Konto löschen
+        leave_blank_if_you_don_t_want_to_change_it: freilassen, wenn Sie das nicht ändern wollen
+        title: ! '%{resource} bearbeiten'
+        we_need_your_current_password_to_confirm_your_changes: wir benötigen Ihr aktuelles Passwort, um die Änderung zu bestätigen
+      new:
+        sign_up: Registrieren
+    sessions:
+      new:
+        sign_in: Anmelden
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Keine Anleitung zur Bestätigung erhalten?
+        didn_t_receive_unlock_instructions: Keine Anleitung zum Entsperren erhalten?
+        forgot_your_password: Passwort vergessen?
+        sign_in: Anmelden
+        sign_in_with_provider: Mit %{provider} anmelden
+        sign_up: Registrieren
+    unlocks:
+      new:
+        resend_unlock_instructions: Anleitung zum Entsperren noch mal schicken
