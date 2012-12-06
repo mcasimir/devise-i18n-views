@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n-views"
-  s.version = "0.2.2"
+  s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
-  s.date = "2012-07-25"
+  s.date = "2012-12-06"
   s.description = "I18n support for devise views"
   s.email = "maurizio.cas@gmail.com"
   s.extra_rdoc_files = [
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -39,8 +40,16 @@ Gem::Specification.new do |s|
     "devise-i18n-views.gemspec",
     "lib/devise-i18n-views.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
+    "locales/de.yml",
     "locales/en.yml",
-    "locales/it.yml"
+    "locales/es-AR.yml",
+    "locales/es.yml",
+    "locales/fr.yml",
+    "locales/it.yml",
+    "locales/pt-BR.yml",
+    "locales/ru.yml",
+    "spec/devise-i18n-views_spec.rb",
+    "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/mcasimir/devise-i18n-views"
   s.licenses = ["MIT"]
@@ -52,15 +61,24 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+      s.add_development_dependency(%q<rspec>, [">= 2.4.0"])
       s.add_development_dependency(%q<bundler>, [">= 0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_development_dependency(%q<i18n-spec>, [">= 0"])
+      s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
+      s.add_dependency(%q<rspec>, [">= 2.4.0"])
       s.add_dependency(%q<bundler>, [">= 0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+      s.add_dependency(%q<i18n-spec>, [">= 0"])
+      s.add_dependency(%q<localeapp>, [">= 0"])
     end
   else
+    s.add_dependency(%q<rspec>, [">= 2.4.0"])
     s.add_dependency(%q<bundler>, [">= 0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
+    s.add_dependency(%q<i18n-spec>, [">= 0"])
+    s.add_dependency(%q<localeapp>, [">= 0"])
   end
 end
 
