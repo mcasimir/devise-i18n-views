@@ -6,7 +6,7 @@ pt-BR:
     mailer:
       confirmation_instructions:
         action: Confirmar minha conta
-        greeting: Bem-vindo %{recipient}!
+        greeting: Bem-vindo %{recepient}!
         instruction: ! 'Você pode confirmar sua conta através do link abaixo:'
         subject: Instruções de confirmação
       reset_password_instructions:
