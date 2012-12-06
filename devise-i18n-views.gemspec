@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".project",
     ".rspec",
     "Gemfile",
     "Gemfile.lock",
@@ -39,6 +40,7 @@ Gem::Specification.new do |s|
     "app/views/devise/unlocks/new.html.erb",
     "devise-i18n-views.gemspec",
     "lib/devise-i18n-views.rb",
+    "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
     "locales/de.yml",
     "locales/en.yml",
