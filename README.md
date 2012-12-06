@@ -20,6 +20,14 @@ rails g devise:views:locale it
 
 will generate `config/locales/devise.views.it.yml`.
 
+## Customizing Views
+
+The `devise:views:i18n_templates` generator will copy all views to your application, so you can modify the files as you wish:
+
+``` sh
+rails g devise:views:i18n_templates
+```
+
 ## Contributing to devise-i18n-views
 ### with Localeapp
 
