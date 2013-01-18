@@ -48,3 +48,6 @@ pkg
 # For rubinius:
 #*.rbc
 .localeapp
+
+# For RubyMine
+.idea
