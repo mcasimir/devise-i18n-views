@@ -5,7 +5,7 @@ module DeviseI18nViews
   
   class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'rails-i18n-views' do |app|
-      RailsI18n::Railtie.instance_eval do
+      DeviseI18nViews::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
 
         files = Dir[File.join(File.dirname(__FILE__), '../locales', "#{pattern}.yml")]
