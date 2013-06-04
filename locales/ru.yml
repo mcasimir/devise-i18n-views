@@ -26,6 +26,11 @@ ru:
       new:
         forgot_your_password: Забыли пароль?
         send_me_reset_password_instructions: Выслать новый пароль
+      edit:
+        change_your_password: Изменить пароль
+        new_password: Новый пароль
+        confirm_new_password: Повторите новый пароль
+        change_my_password: Изменить мой пароль        
     registrations:
       edit:
         are_you_sure: Вы уверены?
