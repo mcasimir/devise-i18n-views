@@ -50,7 +50,7 @@ ja:
         didn_t_receive_unlock_instructions: 没有收到解锁指令？
         forgot_your_password: パスワードを忘れましたか？
         sign_in: サインイン
-        sign_in_with_provider: %{provider} でサインイン
+        sign_in_with_provider: ! '%{provider} でサインイン'
         sign_up: サインアップ
     unlocks:
       new:
