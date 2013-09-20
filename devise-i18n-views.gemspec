@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n-views"
-  s.version = "0.2.5"
+  s.version = "0.2.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
-  s.date = "2012-12-06"
+  s.date = "2013-09-20"
   s.description = "I18n support for devise views"
   s.email = "maurizio.cas@gmail.com"
   s.extra_rdoc_files = [
@@ -42,21 +42,27 @@ Gem::Specification.new do |s|
     "lib/devise-i18n-views.rb",
     "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
+    "locales/ca.yml",
     "locales/de.yml",
     "locales/en.yml",
     "locales/es-AR.yml",
+    "locales/es-ES.yml",
     "locales/es.yml",
     "locales/fr.yml",
     "locales/it.yml",
+    "locales/nl.yml",
+    "locales/pl.yml",
     "locales/pt-BR.yml",
     "locales/ru.yml",
+    "locales/zh-CN.yml",
+    "locales/zh-TW.yml",
     "spec/devise-i18n-views_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/mcasimir/devise-i18n-views"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "1.8.25"
   s.summary = "I18n support for devise views"
 
   if s.respond_to? :specification_version then
