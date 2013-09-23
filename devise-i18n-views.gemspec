@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "devise-i18n-views"
-  s.version = "0.2.7"
+  s.version = "0.2.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
-  s.date = "2013-09-20"
+  s.date = "2013-09-23"
   s.description = "I18n support for devise views"
   s.email = "maurizio.cas@gmail.com"
   s.extra_rdoc_files = [
@@ -49,6 +49,7 @@ Gem::Specification.new do |s|
     "locales/es-ES.yml",
     "locales/es.yml",
     "locales/fr.yml",
+    "locales/hu.yml",
     "locales/it.yml",
     "locales/nl.yml",
     "locales/pl.yml",
