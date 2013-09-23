@@ -24,3 +24,7 @@ Jeweler::Tasks.new do |gem|
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
+
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new
