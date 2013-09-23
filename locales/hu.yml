@@ -36,7 +36,7 @@ hu:
         are_you_sure: Biztos benne?
         cancel_my_account: Fiók megszüntetése
         leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
-        title: %{resource} módosítása
+        title: "%{resource} módosítása"
         we_need_your_current_password_to_confirm_your_changes: a változtatás végrehajtásához szükséges a jelenlegi jelszó
         update: Módosítás
         cancel_my_account: Fiók megszüntetése
@@ -52,7 +52,7 @@ hu:
         didn_t_receive_unlock_instructions: Nem kapta meg a feloldáshoz a levelet?
         forgot_your_password: Elfelejtette a jelszavát?
         sign_in: Belépés
-        sign_in_with_provider: %{provider} belépés
+        sign_in_with_provider: "%{provider} belépés"
         sign_up: Regisztráció
     unlocks:
       new:
