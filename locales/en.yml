@@ -60,7 +60,6 @@ en:
         title: "Edit %{resource}"
         we_need_your_current_password_to_confirm_your_changes: "we need your current password to confirm your changes"
         update: "Update"
-        cancel_my_account: "Cancel my account"
         unhappy: "Unhappy"
       new:
         sign_up: "Sign up"
