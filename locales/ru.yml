@@ -42,6 +42,9 @@ ru:
         sign_up: Регистрация
     sessions:
       new:
+        email: "Email"
+        password: "Пароль"
+        remember_me: "Оставаться в системе"
         sign_in: Войти
     shared:
       links:

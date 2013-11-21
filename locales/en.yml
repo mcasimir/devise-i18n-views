@@ -74,6 +74,8 @@ en:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
       new:
+        password: "Password"
+        remember_me: "Remember me"
         sign_in: "Sign in"
     shared:
       links:
