@@ -33,12 +33,17 @@ ru:
         change_my_password: Изменить мой пароль        
     registrations:
       edit:
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
+        current_password: "Текущий пароль"
         are_you_sure: Вы уверены?
         cancel_my_account: Удалить учетную запись
         leave_blank_if_you_don_t_want_to_change_it: оставьте поле пустым, если не хотите ничего менять
         title: Редактировать %{resource}
         we_need_your_current_password_to_confirm_your_changes: введите текущий пароль для подтверждения изменений
       new:
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
         sign_up: Регистрация
     sessions:
       new:

@@ -7,10 +7,10 @@
   <%= f.email_field :email %></div>
 
   <div><%= f.label :password %><br />
-  <%= f.password_field :password %></div>
+  <%= f.password_field :password, t('.password', :default => 'Password') %></div>
 
   <div><%= f.label :password_confirmation %><br />
-  <%= f.password_field :password_confirmation %></div>
+  <%= f.password_field :password_confirmation, t('.password_confirmation', :default => 'Password confirmation') %></div>
 
   <div><%= f.submit t('.sign_up', :default => "Sign up") %></div>
 <% end %>

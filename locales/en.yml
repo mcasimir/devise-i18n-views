@@ -54,6 +54,9 @@ en:
       updated_not_active: "Your password was changed successfully."
     registrations:
       edit:
+        password: "Password"
+        password_confirmation: "Password confirmation"
+        current_password: "Current password"
         are_you_sure: "Are you sure?"
         cancel_my_account: "Cancel my account"
         leave_blank_if_you_don_t_want_to_change_it: "leave blank if you dont want to change it"
@@ -63,6 +66,8 @@ en:
         unhappy: "Unhappy"
       new:
         sign_up: "Sign up"
+        password: "Password"
+        password_confirmation: "Password confirmation"
       destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
       signed_up: "Welcome! You have signed up successfully."
       signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
