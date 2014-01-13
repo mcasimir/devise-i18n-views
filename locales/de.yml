@@ -3,6 +3,9 @@ de:
     confirmations:
       new:
         resend_confirmation_instructions: Anleitung zur Bestätigung noch mal schicken
+        confirmed: Ihre Konto wurde erfolgreich bestätigt.
+        send_instructions: Sie erhalten ein wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Konto bestätigen.
+        send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine E-Mail mit Anweisungen erhalten, wie Sie Ihr Konto bestätigen.
     mailer:
       confirmation_instructions:
         action: Mein Konto bestätigen
@@ -13,7 +16,7 @@ de:
         action: Passwort ändern
         greeting: Hallo %{recipient}!
         instruction: Jemand hat einen Link angefordert, um Ihr Passwort zu ändern, und Sie können das durch den unten aufgeführten Link tun.
-        instruction_2: Wenn Sie das nicht angefordert haben, bitte ignorieren Sie diese E-mail.
+        instruction_2: Wenn Sie das nicht angefordert haben, bitte ignorieren Sie diese E-Mail.
         instruction_3: Das Passwort wird nicht geändert bis Sie den obenstehenden Link abrufen, und ein neues Passwort bestimmen.
         subject: Anleitung um das Passwort zurückzusetzten
       unlock_instructions:
@@ -26,6 +29,12 @@ de:
       new:
         forgot_your_password: Haben Sie Ihr Passwort vergessen?
         send_me_reset_password_instructions: Schicken Sie mir die Anleitung, mein Passwort zurückzusetzen
+      edit:
+        change_your_password: Passwort ändern
+        new_password: Neues Passwort
+        confirm_new_password: Neues Passwort bestätigen
+        change_my_password: Ändere mein Passwort
+      updated: Ihr Passwort wurde erfolgreich geändert. Sie sind nun angemeldet.
     registrations:
       edit:
         are_you_sure: Sind Sie sicher?
