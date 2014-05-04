@@ -41,8 +41,13 @@ ru:
       new:
         sign_up: Регистрация
     sessions:
+      signed_in: Успешно зашли!
+      signed_out: Успешно вышли!
       new:
         sign_in: Войти
+        email: E-mail
+        password: Пароль
+        remember_me: Запомнить меня
     shared:
       links:
         didn_t_receive_confirmation_instructions: Не получили подтверждение?
