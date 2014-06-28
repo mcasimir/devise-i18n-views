@@ -78,6 +78,7 @@ en:
         sign_in: "Sign in"
     shared:
       links:
+        back: "Back"
         didn_t_receive_confirmation_instructions: "Didn't receive confirmation instructions?"
         didn_t_receive_unlock_instructions: "Didn't receive unlock instructions?"
         forgot_your_password: "Forgot your password?"
@@ -108,4 +109,7 @@ en:
         current_sign_in_at: "Signed in at"
         email: "Email"
         password: "Password"
+        password_confirmation: "Password confirmation"
+        current_password: "Current password"
+        remember_me: "Remember me"
         last_sign_in_at: "Last signed in at"
