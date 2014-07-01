@@ -1,0 +1,51 @@
+sk:
+  devise:
+    confirmations:
+      new:
+        resend_confirmation_instructions: Poslať znovu potvrdzovacie inštrukcie
+    mailer:
+      confirmation_instructions:
+        action: Potvrdiť môj účet
+        greeting: Vitaj %{recipient}!
+        instruction: 'Môžete potvrdiť emailovú adresu vašeho účtu pomocou odkazu nižšie:'
+        subject: Potvrdzovacie inštrukcie
+      reset_password_instructions:
+        action: Zmeniť moje heslo
+        greeting: Ahoj %{recipient}!
+        instruction: Niekto požiadal o zmenu vášho hesla a môžete to spraviť pomocou odkazu nižšie.
+        instruction_2: Ak ste o toto nepožiadali, prosím ignorujte tento email.
+        instruction_3: Vaše heslo sa nezmení, pokým nenavštívite odkaz vyššie a nezadáte nové.
+        subject: Inštrukcie na obnovu hesla
+      unlock_instructions:
+        action: Odomknúť môj účet
+        greeting: Ahoj %{recipient}!
+        instruction: 'Kliknite na odkaz nižsie, aby ste odomkli váš účet:'
+        message: Vaše konto bolo zamknuté kvôli nadmernému počtu neúspešných prihlásení.
+        subject: Inštrukcie na odomknutie účtu
+    passwords:
+      new:
+        forgot_your_password: Zabudli ste heslo?
+        send_me_reset_password_instructions: Pošlite mi inštrukcie na obnovu hesla
+    registrations:
+      edit:
+        are_you_sure: Ste si istí?
+        cancel_my_account: Zrušiť môj účet
+        leave_blank_if_you_don_t_want_to_change_it: nechajte prázdne ak to nechcete zmeniť
+        title: Upraviť %{resource}
+        we_need_your_current_password_to_confirm_your_changes: na potvrdenie vašich zmien potrebujeme vaše súčasné heslo
+      new:
+        sign_up: Zaregistrovať sa
+    sessions:
+      new:
+        sign_in: Prihlásiť sa
+    shared:
+      links:
+        didn_t_receive_confirmation_instructions: Nedostali ste potvrdzovacie inštrukcie?
+        didn_t_receive_unlock_instructions: Nedostali ste inštrukcie na odomknutie účtu?
+        forgot_your_password: Zabudli ste heslo?
+        sign_in: Prihlásiť sa
+        sign_in_with_provider: Prihlásiť sa cez %{provider}
+        sign_up: Zaregistrovať sa
+    unlocks:
+      new:
+        resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu
