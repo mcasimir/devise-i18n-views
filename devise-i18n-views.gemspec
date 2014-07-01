@@ -60,6 +60,7 @@ Gem::Specification.new do |s|
     "locales/nl.yml",
     "locales/pl.yml",
     "locales/pt-BR.yml",
+    "locales/pt-PT.yml",
     "locales/ru.yml",
     "locales/sk.yml",
     "locales/zh-CN.yml",
