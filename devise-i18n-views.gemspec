@@ -42,6 +42,7 @@ Gem::Specification.new do |s|
     "lib/devise-i18n-views.rb",
     "lib/generators/devise/views/i18n_templates/i18n_templates_generator.rb",
     "lib/generators/devise/views/locale/locale_generator.rb",
+    "locales/bg.yml",
     "locales/ca.yml",
     "locales/cs.yml",
     "locales/da-DK.yml",
