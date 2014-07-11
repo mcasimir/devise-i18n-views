@@ -1,8 +1,33 @@
 cs:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Opět poslat instrukce pro potvrzení
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Potvrdit můj účet
@@ -22,24 +47,50 @@ cs:
         instruction: 'Přejděte na odkaz níže pro odblokování účtu:'
         message: Váš účet byl zablokován pro nadměrný počet neúspěšných pokusů o přihlášení.
         subject: Instrukce pro odblokování
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
         forgot_your_password: Zapomněl jste své heslo?
         send_me_reset_password_instructions: Poslat instrukce pro obnovení hesla
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Jste si jistý?
         cancel_my_account: Zrušit můj účet
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: nech prázdné, pokud to nechceš měnit
         title: Upravit %{resource}
+        unhappy: 
+        update: 
         we_need_your_current_password_to_confirm_your_changes: Potřebujeme vaše současné heslo pro potvrzení změn
       new:
         sign_up: Registrovat
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Přihlásit
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Nedostali jste informace pro potvrzení?
         didn_t_receive_unlock_instructions: Nedostali jste instrukce pro odblokování?
         forgot_your_password: Zapomněli jste heslo?
@@ -49,3 +100,14 @@ cs:
     unlocks:
       new:
         resend_unlock_instructions: Znovu odeslat instrukce pro odblokování
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 

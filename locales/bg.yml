@@ -1,9 +1,21 @@
 bg:
+  activerecord:
+    attributes:
+      user:
+        current_password: "Текуща парола"
+        current_sign_in_at: "Влезли в"
+        email: "Емейл"
+        last_sign_in_at: "Последно влизане в"
+        password: "Парола"
+        password_confirmation: "Потвърждаване на паролата"
+        remember_me: "Запомни ме"
+    models:
+      user: "Потребител"
   devise:
     confirmations:
+      confirmed: "Регистрацията Ви е потвърдена. Влязохте успешно."
       new:
         resend_confirmation_instructions: "Повторно изпращане на инструкции за потвърждаване"
-      confirmed: "Регистрацията Ви е потвърдена. Влязохте успешно."
       send_instructions: "Ще получите имейл с инструкции за потвърждаване на Вашата регистрация до няколко минути."
       send_paranoid_instructions: "Ако Вашият имейл адрес съществува в нашата база данни, ще получите имейл с инструкции за потвърждаване на Вашия профил до няколко минути."
     failure:
@@ -36,34 +48,35 @@ bg:
         message: "Профилът Ви е заключен поради надвишаване броя на неуспешните опити за вход."
         subject: "Инструкции за отключване"
     omniauth_callbacks:
-      failure: "Не успяхме да ви оторизираме чрез %{kind}, защото \"%{reason}\"."
+      failure: Не успяхме да ви оторизираме чрез %{kind}, защото "%{reason}".
       success: "Успешно оторизиран чрез %{kind} профил."
     passwords:
+      edit:
+        change_my_password: "Смяна на парола"
+        change_your_password: "Смяна на парола"
+        confirm_new_password: "Потвърждение на нова парола"
+        new_password: "Нова парола"
       new:
         forgot_your_password: "Забравена парола?"
         send_me_reset_password_instructions: "Изпрати инструкции за възстановяване на парола"
-      edit:
-        change_your_password: "Смяна на парола"
-        new_password: "Нова парола"
-        confirm_new_password: "Потвърждение на нова парола"
-        change_my_password: "Смяна на парола"
       no_token: "Може да достъпвате тази страница само от имейл за промяна на паролата. Ако сте отворили тази страница от такъв имейл, уверете се, че използвате целия URL-адрес, който сме ви изпратили."
       send_instructions: "Ще получите имейл с инструкции как да промените паролата си до няколко минути."
       send_paranoid_instructions: "Ако вашият имейл адрес съществува в базата ни, ще получите инструкции за промяна на вашата парола."
       updated: "Паролата Ви е променена успешно. Влязохте успешно в профила си."
       updated_not_active: "Паролата Ви е променена успешно."
     registrations:
+      destroyed: "Довиждане! Вашият профил беше успешно изтрит. Надяваме се скоро да Ви видим отново."
       edit:
         are_you_sure: "Сигурни ли сте?"
         cancel_my_account: "Закриване на профил"
+        currently_waiting_confirmation_for_email: "Очаква се потвърждение за: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: "оставете празно, ако не искате да го променяте"
         title: "Редакция на %{resource}"
-        we_need_your_current_password_to_confirm_your_changes: "въведете настоящата си парола за потвърждаване на промените"
-        update: "Обновяване"
         unhappy: "Недоволни"
+        update: "Обновяване"
+        we_need_your_current_password_to_confirm_your_changes: "въведете настоящата си парола за потвърждаване на промените"
       new:
         sign_up: "Регистрация"
-      destroyed: "Довиждане! Вашият профил беше успешно изтрит. Надяваме се скоро да Ви видим отново."
       signed_up: "Добре дошли! Вие се регистрирахте успешно."
       signed_up_but_inactive: "Регистирахте се успешно. Въпреки това, не можете да влезете в профила си, защото той все още не е активиран."
       signed_up_but_locked: "Регистрирахте се успешно. Въпреки това, не можете да влезете в профила си, защото той е заключен."
@@ -71,12 +84,13 @@ bg:
       update_needs_confirmation: "Обновихте профила си успешно, но трябва да проверим Вашия нов имейл адрес. Моля, проверете пощата си и отворете линка за потвърждаване на новия адрес."
       updated: "Обновихте профила си успешно."
     sessions:
-      signed_in: "Влязохте успешно."
-      signed_out: "Излязохте успешно."
       new:
         sign_in: "Вход"
+      signed_in: "Влязохте успешно."
+      signed_out: "Излязохте успешно."
     shared:
       links:
+        back: "Назад"
         didn_t_receive_confirmation_instructions: "Не сте получили инструкции за потвърждаване?"
         didn_t_receive_unlock_instructions: "Не сте получили инструкции за отключване?"
         forgot_your_password: "Забравена парола?"

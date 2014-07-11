@@ -1,8 +1,33 @@
 sk:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Poslať znovu potvrdzovacie inštrukcie
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Potvrdiť môj účet
@@ -22,24 +47,50 @@ sk:
         instruction: 'Kliknite na odkaz nižsie, aby ste odomkli váš účet:'
         message: Vaše konto bolo zamknuté kvôli nadmernému počtu neúspešných prihlásení.
         subject: Inštrukcie na odomknutie účtu
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
         forgot_your_password: Zabudli ste heslo?
         send_me_reset_password_instructions: Pošlite mi inštrukcie na obnovu hesla
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Ste si istí?
         cancel_my_account: Zrušiť môj účet
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: nechajte prázdne ak to nechcete zmeniť
         title: Upraviť %{resource}
+        unhappy: 
+        update: 
         we_need_your_current_password_to_confirm_your_changes: na potvrdenie vašich zmien potrebujeme vaše súčasné heslo
       new:
         sign_up: Zaregistrovať sa
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Prihlásiť sa
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Nedostali ste potvrdzovacie inštrukcie?
         didn_t_receive_unlock_instructions: Nedostali ste inštrukcie na odomknutie účtu?
         forgot_your_password: Zabudli ste heslo?
@@ -49,3 +100,14 @@ sk:
     unlocks:
       new:
         resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 

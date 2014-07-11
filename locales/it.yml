@@ -1,13 +1,38 @@
 it:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Invia di nuovo le istruzioni per la conferma
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Conferma il mio account
         greeting: Benvenuto %{recipient}!
-        instruction: ! 'Puoi confermare il tuo account cliccando sul link qui sotto:'
+        instruction: 'Puoi confermare il tuo account cliccando sul link qui sotto:'
         subject: Istruzioni per la conferma
       reset_password_instructions:
         action: Cambia la mia password
@@ -19,27 +44,53 @@ it:
       unlock_instructions:
         action: Sblocca il mio account
         greeting: Ciao %{recipient}!
-        instruction: ! 'Clicca sul link qui sotto per sbloccare il tuo account:'
+        instruction: 'Clicca sul link qui sotto per sbloccare il tuo account:'
         message: Il tuo account è stato bloccato a seguito di un numero eccessivo di tentativi di accesso falliti.
         subject: Istruzioni per lo sblocco
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
         forgot_your_password: Password dimenticata?
         send_me_reset_password_instructions: Inviami le istruzioni per resettare la password
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Sei sicuro?
         cancel_my_account: Rimuovi il mio account
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: lascia in bianco se non vuoi cambiarla
         title: Modifica %{resource}
+        unhappy: 
+        update: 
         we_need_your_current_password_to_confirm_your_changes: abbiamo bisogno della tua password attuale per confermare i cambiamenti
       new:
         sign_up: Registrati
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Accedi
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Non hai ricevuto le istruzioni per la conferma?
         didn_t_receive_unlock_instructions: Non hai ricevuto le istruzioni per lo sblocco?
         forgot_your_password: Password dimenticata?
@@ -49,3 +100,14 @@ it:
     unlocks:
       new:
         resend_unlock_instructions: Invia di nuovo le istruzioni per lo sblocco
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 

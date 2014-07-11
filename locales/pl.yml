@@ -1,13 +1,38 @@
 pl:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Wyślij ponownie instrukcje aktywacji
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Potwierdź swoje konto
         greeting: Witaj %{recipient}!
-        instruction: ! 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
+        instruction: 'Możesz potwierdzić swoje konto przy pomocy poniższego linku:'
         subject: Instrukcja aktywacji konta
       reset_password_instructions:
         action: Zmień swoje hasło
@@ -19,33 +44,53 @@ pl:
       unlock_instructions:
         action: Odblokuj swoje konto
         greeting: Cześć %{recipient}!
-        instruction: ! 'Kliknij poniższy link aby odblokować swoje konto.'
+        instruction: Kliknij poniższy link aby odblokować swoje konto.
         message: Twoje konto zostało zablokowane z powodu zbyt dużej ilości nieprawidłowych prób zalogowania się na nie.
         subject: Instrukcja odblokowania konta
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: Zmień swoje hasło
+        change_your_password: Zmień swoje hasło
+        confirm_new_password: Powtórz nowe hasło
+        new_password: Nowe hasło
       new:
         forgot_your_password: Zapomniałeś swoje hasło?
         send_me_reset_password_instructions: Wyślij instrukcje zmiany hasła
-      edit:
-        change_your_password: Zmień swoje hasło
-        new_password: Nowe hasło
-        confirm_new_password: Powtórz nowe hasło
-        change_my_password: Zmień swoje hasło
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Jesteś pewny?
         cancel_my_account: Anuluj moje konto
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: pozostaw puste jeśli nie chcesz wprowadzać zmian
         title: Edytuj %{resource}
-        we_need_your_current_password_to_confirm_your_changes: potrzebujemy Twojego bieżącego hasła aby potwierdzić zmiany
+        unhappy: 
         update: Zaktualizuj
+        we_need_your_current_password_to_confirm_your_changes: potrzebujemy Twojego bieżącego hasła aby potwierdzić zmiany
       new:
         sign_up: Zarejestruj się
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Zaloguj się
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Nie otrzymałeś instrukcji aktywacji konta?
         didn_t_receive_unlock_instructions: Nie otrzymałeś instrukcji odblokowania konta?
         forgot_your_password: Zapomniałeś hasło?
@@ -55,3 +100,14 @@ pl:
     unlocks:
       new:
         resend_unlock_instructions: Wyślij instrukcje odblokowania konta
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 

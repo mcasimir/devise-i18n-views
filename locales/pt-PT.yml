@@ -1,15 +1,38 @@
-#Portuguese from Portugal to devise-i18n-views
-
 pt-PT:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Reenviar instruções de confirmação
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Confirmar a minha conta
         greeting: Bem-vindo %{recipient}!
-        instruction: ! 'Pode confirmar a sua conta através do link:'
+        instruction: 'Pode confirmar a sua conta através do link:'
         subject: Instruções de confirmação
       reset_password_instructions:
         action: Repor a minha senha
@@ -21,27 +44,53 @@ pt-PT:
       unlock_instructions:
         action: Desbloquear a minha conta
         greeting: Olá %{recipient}!
-        instruction: ! 'Clique no seguinte link para desbloquear a sua conta:'
+        instruction: 'Clique no seguinte link para desbloquear a sua conta:'
         message: A sua conta foi bloqueada devido a um número excessivo de tentativas de acesso inválidas.
         subject: Instruções de desbloqueio
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
         forgot_your_password: Esqueceu a sua senha?
         send_me_reset_password_instructions: Enviar-me instruções para repor a senha
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Tem a certeza?
         cancel_my_account: Cancelar a minha conta
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterar
         title: Editar %{resource}
+        unhappy: 
+        update: 
         we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha actual para confirmar as alterações
       new:
         sign_up: Criar Conta
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Entrar
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Não recebeu instruções de confirmação?
         didn_t_receive_unlock_instructions: Não recebeu instruções de desbloqueio?
         forgot_your_password: Equeceu a palavra-passe?
@@ -51,3 +100,14 @@ pt-PT:
     unlocks:
       new:
         resend_unlock_instructions: Renviar instruções de desbloqueio
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 

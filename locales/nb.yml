@@ -1,8 +1,33 @@
 nb:
+  activerecord:
+    attributes:
+      user:
+        current_password: 
+        current_sign_in_at: 
+        email: 
+        last_sign_in_at: 
+        password: 
+        password_confirmation: 
+        remember_me: 
+    models:
+      user: 
   devise:
     confirmations:
+      confirmed: 
       new:
         resend_confirmation_instructions: Send bekreftelsesinstruksjoner på nytt
+      send_instructions: 
+      send_paranoid_instructions: 
+    failure:
+      already_authenticated: 
+      inactive: 
+      invalid: 
+      invalid_token: 
+      locked: 
+      not_found_in_database: 
+      timeout: 
+      unauthenticated: 
+      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Aktiver min konto
@@ -22,24 +47,50 @@ nb:
         instruction: 'Trykk på linken under for å gjenåpne din konto:'
         message: Kontoen din har blitt låst grunnet et høyt antall mislykkede innloggingsforsøk.
         subject: Gjenåpning av konto
+    omniauth_callbacks:
+      failure: 
+      success: 
     passwords:
+      edit:
+        change_my_password: 
+        change_your_password: 
+        confirm_new_password: 
+        new_password: 
       new:
         forgot_your_password: Glemt passordet ditt?
         send_me_reset_password_instructions: Send instrukser for nullstilling av passord
+      no_token: 
+      send_instructions: 
+      send_paranoid_instructions: 
+      updated: 
+      updated_not_active: 
     registrations:
+      destroyed: 
       edit:
         are_you_sure: Er du sikker?
         cancel_my_account: Slett min konto
+        currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: la være tomt hvis du ikke ønsker å endre dette
         title: Rediger %{resource}
+        unhappy: 
+        update: 
         we_need_your_current_password_to_confirm_your_changes: vi trenger ditt nåværende passord for å bekrefte endringene
       new:
         sign_up: Registrer deg
+      signed_up: 
+      signed_up_but_inactive: 
+      signed_up_but_locked: 
+      signed_up_but_unconfirmed: 
+      update_needs_confirmation: 
+      updated: 
     sessions:
       new:
         sign_in: Logg inn
+      signed_in: 
+      signed_out: 
     shared:
       links:
+        back: 
         didn_t_receive_confirmation_instructions: Ikke mottatt bekreftelsesinstruksjoner?
         didn_t_receive_unlock_instructions: Ikke mottatt instruksjoner for nullstilling av passord?
         forgot_your_password: Glemt passordet ditt?
@@ -49,3 +100,14 @@ nb:
     unlocks:
       new:
         resend_unlock_instructions: Send instrukser for gjenåpning av konto på nytt
+      send_instructions: 
+      send_paranoid_instructions: 
+      unlocked: 
+  errors:
+    messages:
+      already_confirmed: 
+      confirmation_period_expired: 
+      expired: 
+      not_found: 
+      not_locked: 
+      not_saved: 
