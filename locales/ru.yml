@@ -2,18 +2,18 @@ ru:
   activerecord:
     attributes:
       user:
-        current_password: 
-        current_sign_in_at: 
+        current_password: "Текущий пароль"
+        current_sign_in_at: "Вошел в "
         email: 
-        last_sign_in_at: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        last_sign_in_at: "Последний раз входил в"
+        password: "Пароль"
+        password_confirmation: "Подтверждение пароля"
+        remember_me: "Запомнить меня"
     models:
-      user: 
+      user: "Пользователь"
   devise:
     confirmations:
-      confirmed: 
+      confirmed: "Ваш аккаунт успешно активирован"
       new:
         resend_confirmation_instructions: "Выслать повторно письмо с активацией"
       send_instructions: 
