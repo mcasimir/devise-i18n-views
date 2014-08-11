@@ -3,9 +3,7 @@ es-ES:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ es-ES:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Reenviar instrucciones de confirmación
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Confirmar mi cuenta
         greeting: "¡Bienvenid@ %{recipient}!"
         instruction: 'Puedes confirmar el email de tu cuenta a través de este enlace:'
-        subject: Instrucciones de confirmación
       reset_password_instructions:
         action: Cambiar mi contraseña
         greeting: "¡Hola %{recipient}!"
         instruction: Alguien ha solicitado un enlace para cambiar tu contraseña, lo que se puede realizar con el siguiente enlace.
         instruction_2: Si tú no lo has solicitado, por favor ignora este email.
         instruction_3: Tu contraseña no será cambiada hasta que accedas al enlace y crees una nueva.
-        subject: Instrucciones para resetear la contraseña
       unlock_instructions:
         action: Desbloquear mi cuenta
         greeting: "¡Hola %{recipient}!"
         instruction: 'Haz click en el siguiente enlace para desbloquear tu cuenta:'
         message: Tu cuenta se ha bloqueado debido a una cantidad excesiva de intentos fallidos para acceder.
-        subject: Instrucciones de desbloqueo
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: Cambiar mi contraseña
@@ -59,13 +38,7 @@ es-ES:
       new:
         forgot_your_password: "¿Olvidaste tu contraseña?"
         send_me_reset_password_instructions: Enviar las instrucciones para resetear mi contraseña
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: "¿Estás segur@?"
         cancel_my_account: Cancelar mi cuenta
@@ -77,17 +50,9 @@ es-ES:
         we_need_your_current_password_to_confirm_your_changes: necesitamos tu contraseña actual para confirmar los cambios
       new:
         sign_up: Registrarse
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Iniciar sesión
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ es-ES:
     unlocks:
       new:
         resend_unlock_instructions: Reenviar instrucciones de desbloqueo
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

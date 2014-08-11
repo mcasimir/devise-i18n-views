@@ -3,9 +3,7 @@ fi:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ fi:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Uudelleenlähetä vahvistusohjeet
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Vahvista tilini
         greeting: Tervetuloa, %{recipient}!
         instruction: 'Vahvista sähköpostisi painamalla alla olevaa linkkiä:'
-        subject: Tilin vahvistus -ohjeet
       reset_password_instructions:
         action: Vaihda salasanani
         greeting: Hei, %{recipient}!
         instruction: Joku on pyytänyt tilisi salasanan vaihtoa. Tämä voidaan suorittaa painamalla linkkiä alla.
         instruction_2: Jos et pyytänyt tätä, älä huomioi tätä sähköpostia.
         instruction_3: Salasanaasi ei vaihdeta ennen kuin painat yllä olevaa linkkiä ja syötät uuden salasanan.
-        subject: Salasanan vaihto -ohjeet
       unlock_instructions:
         action: Poista tilini lukitus
         greeting: Hei, %{recipient}!
         instruction: 'Paina alla olevaa linkkiä poistaaksesi lukituksen:'
         message: Tilisi on lukittu johtuen liian useasta epäonnistuneesta kirjautumisyrityksestä.
-        subject: Tilin lukituksen poisto -ohjeet
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: 
@@ -59,13 +38,7 @@ fi:
       new:
         forgot_your_password: Unohditko salasanasi?
         send_me_reset_password_instructions: Lähetä minulle salasanan vaihto -ohjeet
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Oletko varma?
         cancel_my_account: Poista tilini
@@ -77,17 +50,9 @@ fi:
         we_need_your_current_password_to_confirm_your_changes: syötä nykyinen salasanasi
       new:
         sign_up: Rekisteröidy
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Kirjaudu sisään
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ fi:
     unlocks:
       new:
         resend_unlock_instructions: Uudelleen lähetä lukituksen poisto -ohjeet
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

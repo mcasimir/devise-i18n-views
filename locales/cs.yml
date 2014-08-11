@@ -3,9 +3,7 @@ cs:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ cs:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Opět poslat instrukce pro potvrzení
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Potvrdit můj účet
         greeting: Vítejte, %{recipient}!
         instruction: Můžete potvrdit svůj účet pomocí odkazu níže
-        subject: Instrukce pro potvrzení
       reset_password_instructions:
         action: Změnit mé heslo
         greeting: Ahoj %{recipient}!
         instruction: Někdo si vyžádal odkaz pro změnu vašeho hesla, to můžete udělat pomocí odkazu níže.
         instruction_2: Pokud jste si toto nevyžádali, můžete tento e-mail ignorovat.
         instruction_3: Vaše heslo se nezmění dokud nepřejdete na výše uvedený odkaz a nevytvoříte nové heslo
-        subject: Instrukce pro změnu hesla
       unlock_instructions:
         action: Odblokovat můj účet
         greeting: Ahoj %{recipient}!
         instruction: 'Přejděte na odkaz níže pro odblokování účtu:'
         message: Váš účet byl zablokován pro nadměrný počet neúspěšných pokusů o přihlášení.
-        subject: Instrukce pro odblokování
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: 
@@ -59,13 +38,7 @@ cs:
       new:
         forgot_your_password: Zapomněl jste své heslo?
         send_me_reset_password_instructions: Poslat instrukce pro obnovení hesla
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Jste si jistý?
         cancel_my_account: Zrušit můj účet
@@ -77,17 +50,9 @@ cs:
         we_need_your_current_password_to_confirm_your_changes: Potřebujeme vaše současné heslo pro potvrzení změn
       new:
         sign_up: Registrovat
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Přihlásit
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ cs:
     unlocks:
       new:
         resend_unlock_instructions: Znovu odeslat instrukce pro odblokování
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

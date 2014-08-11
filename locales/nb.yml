@@ -3,9 +3,7 @@ nb:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ nb:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Send bekreftelsesinstruksjoner på nytt
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Aktiver min konto
         greeting: Velkommen %{recipient}!
         instruction: 'Du kan aktivere '
-        subject: Bekreftelsesinstruksjoner
       reset_password_instructions:
         action: Bytt passord
         greeting: Hei, %{recipient}!
         instruction: Noen har bedt om en link for å endre passordet ditt, og dette kan gjøres på linken under.
         instruction_2: Vennligst ignorer denne e-posten hvis du ikke ba om dette.
         instruction_3: Passordet ditt endres ikke før du følger linken over og velger et nytt passord.
-        subject: Nullstilling av passord
       unlock_instructions:
         action: Gjenåpne min konto
         greeting: Hei, %{recipient}!
         instruction: 'Trykk på linken under for å gjenåpne din konto:'
         message: Kontoen din har blitt låst grunnet et høyt antall mislykkede innloggingsforsøk.
-        subject: Gjenåpning av konto
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: 
@@ -59,13 +38,7 @@ nb:
       new:
         forgot_your_password: Glemt passordet ditt?
         send_me_reset_password_instructions: Send instrukser for nullstilling av passord
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Er du sikker?
         cancel_my_account: Slett min konto
@@ -77,17 +50,9 @@ nb:
         we_need_your_current_password_to_confirm_your_changes: vi trenger ditt nåværende passord for å bekrefte endringene
       new:
         sign_up: Registrer deg
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Logg inn
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ nb:
     unlocks:
       new:
         resend_unlock_instructions: Send instrukser for gjenåpning av konto på nytt
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

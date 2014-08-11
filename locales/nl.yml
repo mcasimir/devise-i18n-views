@@ -3,9 +3,7 @@ nl:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ nl:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Verstuur bevestiging-instructies opnieuw
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Bevestig mijn account
         greeting: Welkom %{recipient}!
         instruction: 'U kunt uw email bevestigen via onderstaande link:'
-        subject: Bevestiging-instructies
       reset_password_instructions:
         action: Verander mijn wachtwoord
         greeting: Hallo %{recipient}!
         instruction: Iemand heeft een link gevraagd om uw wachtwoord te wijzigen; dit kan via onderstaande link.
         instruction_2: Als u dit niet heeft gedaan, negeer deze mail alstublieft.
         instruction_3: Uw wachtwoord zal niet wijzigen totdat u bovenstaande link heeft gevolgd en een nieuw wachtwoord heeft aangevraagd.
-        subject: Reset wachtwoord instructies
       unlock_instructions:
         action: Ontgrendel mijn account
         greeting: Hallo %{recipient}!
         instruction: 'U kunt uw account ontgrendelen via onderstaande link:'
         message: Uw account is vergrendeld wegens te veel mislukte pogingen in te loggen.
-        subject: Ontgrendel instructies
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: Verander mijn wachtwoord
@@ -59,13 +38,7 @@ nl:
       new:
         forgot_your_password: Wachtwoord vergeten?
         send_me_reset_password_instructions: Stuur me wachtwoord reset instructies
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Weet u het zeker?
         cancel_my_account: Annuleer mijn account
@@ -77,17 +50,9 @@ nl:
         we_need_your_current_password_to_confirm_your_changes: we hebben uw huidige wachtwoord nodig om uw veranderingen te bevestigen
       new:
         sign_up: Maak account aan
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Inloggen
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ nl:
     unlocks:
       new:
         resend_unlock_instructions: Verstuur ontgrendel-instructies opnieuw
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

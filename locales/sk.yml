@@ -3,9 +3,7 @@ sk:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ sk:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Poslať znovu potvrdzovacie inštrukcie
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Potvrdiť môj účet
         greeting: Vitaj %{recipient}!
         instruction: 'Môžete potvrdiť emailovú adresu vašeho účtu pomocou odkazu nižšie:'
-        subject: Potvrdzovacie inštrukcie
       reset_password_instructions:
         action: Zmeniť moje heslo
         greeting: Ahoj %{recipient}!
         instruction: Niekto požiadal o zmenu vášho hesla a môžete to spraviť pomocou odkazu nižšie.
         instruction_2: Ak ste o toto nepožiadali, prosím ignorujte tento email.
         instruction_3: Vaše heslo sa nezmení, pokým nenavštívite odkaz vyššie a nezadáte nové.
-        subject: Inštrukcie na obnovu hesla
       unlock_instructions:
         action: Odomknúť môj účet
         greeting: Ahoj %{recipient}!
         instruction: 'Kliknite na odkaz nižsie, aby ste odomkli váš účet:'
         message: Vaše konto bolo zamknuté kvôli nadmernému počtu neúspešných prihlásení.
-        subject: Inštrukcie na odomknutie účtu
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: 
@@ -59,13 +38,7 @@ sk:
       new:
         forgot_your_password: Zabudli ste heslo?
         send_me_reset_password_instructions: Pošlite mi inštrukcie na obnovu hesla
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Ste si istí?
         cancel_my_account: Zrušiť môj účet
@@ -77,17 +50,9 @@ sk:
         we_need_your_current_password_to_confirm_your_changes: na potvrdenie vašich zmien potrebujeme vaše súčasné heslo
       new:
         sign_up: Zaregistrovať sa
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Prihlásiť sa
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ sk:
     unlocks:
       new:
         resend_unlock_instructions: Poslať znovu inštrukcie na odomknutie účtu
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

@@ -3,9 +3,7 @@ fr:
     attributes:
       user:
         current_password: Mot de passe actuel
-        current_sign_in_at: Connecté le
         email: Email
-        last_sign_in_at: Dernière connexion le
         password: Mot de passe
         password_confirmation: Confirmation du mot de passe
         remember_me: Se souvenir de moi
@@ -13,43 +11,24 @@ fr:
       user: Utilisateur
   devise:
     confirmations:
-      confirmed: Votre compte a été confirmé avec succès
       new:
         resend_confirmation_instructions: Renvoyer les instructions de confirmation
-      send_instructions: Vous allez recevoir un émail avec les instructions pour confirmer votre inscription dans quelques minutes.
-      send_paranoid_instructions: Si votre adresse émail existe dans notre base de données, vous allez recevoir un émail avec les instructions pour confirmer votre inscription dans quelquyes minutes.
-    failure:
-      already_authenticated: Vous êtes déjà connecté.
-      inactive: Votre compte n'est pas encore activé.
-      invalid: Email ou mot de passe invalide.
-      invalid_token: Jeton d'authentification invalide.
-      locked: Votre compte est verrouillé.
-      not_found_in_database: Email ou mot de passe invalide.
-      timeout: Votre session a expiré. Vous devez vous reconnecter pour continuer.
-      unauthenticated: Vous devez vous connecter ou vous inscrire pour pouvoir continuer.
-      unconfirmed: Vous devez confirmer votre émail pour pouvoir continuer.
     mailer:
       confirmation_instructions:
         action: Confirmer mon émail
         greeting: Bienvenue %{recipient}!
         instruction: 'Vous pouvez confirmer votre émail grâce au lien ci-dessous:'
-        subject: Instructions pour confirmer votre compte
       reset_password_instructions:
         action: Changer mon mot de passe
         greeting: Bonjour %{recipient}!
         instruction: 'Quelqu''un a demandé un lien pour changer votre mot de passe, le voici :'
         instruction_2: Si vous n'avez pas émis cette demande, merci d'ignorer cet email.
         instruction_3: Votre mot de passe ne changera pas tant que vous n'aurez pas cliqué sur ce lien et renseigné un nouveau mot de passe.
-        subject: Instructions pour réinitialiser votre mot de passe
       unlock_instructions:
         action: Débloquer mon compte
         greeting: Bonjour %{recipient}!
         instruction: 'Suivez ce lien pour débloquer votre compte:'
         message: Votre compte a été bloqué suite à un nombre d'essais de connexions manquées trop important
-        subject: Instructions pour débloquer votre compte
-    omniauth_callbacks:
-      failure: Impossible de vous authentifier depuis %{kind} à cause de "%{reason}".
-      success: Authentification réussie depuis votre compte %{kind}
     passwords:
       edit:
         change_my_password: Changer mon mot de passe
@@ -59,13 +38,7 @@ fr:
       new:
         forgot_your_password: Mot de passe oublié ?
         send_me_reset_password_instructions: Envoyez-moi des instructions pour réinitialiser mon mot de passe
-      no_token: Vous ne pouvez pas accéder à cette page sans utiliser le lien fourni dans l'émail de réinitialisation de mot de passe. Si vous venez depuis un émail de réinitialisation de mot de passe, vérifiez que vous avez bien utilisé l'URL complète.
-      send_instructions: Vous allez receoir des instructions pour réinitialiser votre mot de passe dans quelques minutes.
-      send_paranoid_instructions: Si votre adresse émail existe dans notre base de données, vous recevrez un lien de récupération de mot de passe à cette adresse dans quelques minutes.
-      updated: Votre mot de passe a été changé avec succès. Vous êtes maintenant connecté.
-      updated_not_active: Votre mot de passe a été changé avec succès.
     registrations:
-      destroyed: Au revoir ! Votre compte a été annulé avec succès. Nous espèrons vous revoir bientôt.
       edit:
         are_you_sure: "Êtes-vous sûr ?"
         cancel_my_account: Supprimer mon compte
@@ -77,17 +50,9 @@ fr:
         we_need_your_current_password_to_confirm_your_changes: nous avons besoin de votre mot de passe actuel pour valider ces modifications
       new:
         sign_up: Inscription
-      signed_up: Bienvenue ! Vous vous êtes inscrit avec succès.
-      signed_up_but_inactive: Vous vous êtes inscrit avec succès. Cependant, nous ne pouvons pas vous connecter parce que votre compte n'est pas encore activé.
-      signed_up_but_locked: Vous  vous êtes inscrit avec succès. Cependant, nous ne pouvons pas vous connecter parce que votre compte est verrouillé.
-      signed_up_but_unconfirmed: Un message avec un lien de confirmation vous a été envoyé à votre adresse émail. Vous devez ouvrir le lien qu'il contient pour activer votre compte.
-      update_needs_confirmation: Vous avez mis à jour votre compte avec succès mais nous devons vérifier votre nouvelle adresse émail. Merci de vérifier votre boîte émail et de cliquer sur le lien de confirmation pour finaliser la mise à jour de votre nouvelle adresse émail.
-      updated: Vous avez mis à jour votre acompte avec succès.
     sessions:
       new:
         sign_in: Connexion
-      signed_in: Connecté avec succès.
-      signed_out: Déconnecté avec succès.
     shared:
       links:
         back: Retour
@@ -100,16 +65,3 @@ fr:
     unlocks:
       new:
         resend_unlock_instructions: Renvoyer les instructions de déblocage
-      send_instructions: Vous allez recevoir un émail avec les instructions de déblocage de votre compte dans quelques minutes.
-      send_paranoid_instructions: Si votre compte existe, vous recevrez un émail avec les instructions de déblocage dans quelques minutes.
-      unlocked: Votre compte a été débloqué avec succès. Vous devez vous connecter pour continuer.
-  errors:
-    messages:
-      already_confirmed: "était déjà confirmé, essayez de vous connecter"
-      confirmation_period_expired: doit être confirmé sous %{period}, vous devez en demander un nouveau
-      expired: a expiré, vous devez en demander un nouveau
-      not_found: inexistant
-      not_locked: n'était pas bloqué
-      not_saved:
-        one: 'Une erreur a empêché ce(tte) %{resource} d''être sauvegardé(e) :'
-        other: "%{count} erreurs ont empêché ce(tte) %{resource} d'être sauvegardé(e) :"

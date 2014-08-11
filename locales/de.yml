@@ -3,9 +3,7 @@ de:
     attributes:
       user:
         current_password: Bisheriges Passwort
-        current_sign_in_at: Angemeldet am
         email: E-Mail
-        last_sign_in_at: Zuletzt angemeldet am
         password: Passwort
         password_confirmation: Passwortbestätigung
         remember_me: Angemeldet bleiben
@@ -13,43 +11,24 @@ de:
       user: Benutzer
   devise:
     confirmations:
-      confirmed: Ihr Konto wurde erfolgreich bestätigt.
       new:
         resend_confirmation_instructions: Anleitung zur Bestätigung noch mal schicken
-      send_instructions: Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Konto bestätigen.
-      send_paranoid_instructions: Ihre E-Mail-Adresse existiert in unserer Datenbank. Sie erhalten in wenigen Minuten eine E-Mail mit Anweisungen, wie Sie Ihr Konto bestätigen.
-    failure:
-      already_authenticated: Sie sind schon angemeldet.
-      inactive: Ihr Konto ist noch nicht aktiviert.
-      invalid: Ungültige E-Mail-Adresse oder Passwort.
-      invalid_token: Ungültiger Authentifikations-Schlüssel.
-      locked: Ihr Konto ist gesperrt.
-      not_found_in_database: Ungültige E-Mail-Adresse oder Passwort.
-      timeout: Ihre Sitzung ist abgelaufen. Bitte melden sich erneut an, um fortzufahren.
-      unauthenticated: Sie müssen sich anmelden oder registrieren, um fortfahren zu können.
-      unconfirmed: Sie müssen Ihr Konto bestätigen, um fortfahren zu können.
     mailer:
       confirmation_instructions:
         action: Mein Konto bestätigen
         greeting: Willkommen %{recipient}!
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu bestätigen:'
-        subject: Anleitung zur Bestätigung Ihres Kontos
       reset_password_instructions:
         action: Passwort ändern
         greeting: Hallo %{recipient}!
         instruction: Jemand hat einen Link angefordert, um Ihr Passwort zu ändern. Klicken Sie auf den unten aufgeführten Link um das Passwort zu ändern.
         instruction_2: Bitte ignorieren Sie diese E-Mail, wenn Sie kein neues Passwort angefordert haben.
         instruction_3: Das Passwort wird nicht geändert bis Sie den obenstehenden Link abrufen und ein neues Passwort bestimmen.
-        subject: Anleitung um das Passwort zurückzusetzten
       unlock_instructions:
         action: Mein Konto entsperren
         greeting: Hallo %{recipient}!
         instruction: 'Folgen Sie dem untenstehenden Link, um Ihr Konto zu entsperren:'
         message: Ihr Konto wurde aufgrund einer großen Anzahl von fehlgeschlagenen Anmeldeversuchen gesperrt.
-        subject: Anleitung um Ihr Konto zu entsperren
-    omniauth_callbacks:
-      failure: Sie konnten nicht über %{kind} authentifiziert werden, da "%{reason}".
-      success: Erfolgreich über %{kind} authentifiziert.
     passwords:
       edit:
         change_my_password: "Ändere mein Passwort"
@@ -59,13 +38,7 @@ de:
       new:
         forgot_your_password: Haben Sie Ihr Passwort vergessen?
         send_me_reset_password_instructions: Schicken Sie mir die Anleitung, mein Passwort zurückzusetzen
-      no_token: Sie können diese Seite nicht ohne Link zum Zurücksetzen Ihres Passworts aufrufen. Wenn Sie Ihr Passwort zurücksetzen wollen, gehen Sie sicher, dass Sie die vollständige Adresse benutzt haben, die Sie mit der E-Mail erhalten haben.
-      send_instructions: Sie werden eine E-Mail mit der Anleitung, wie Sie Ihr Passwort zurücksetzen können, in wenigen Minuten erhalten.
-      send_paranoid_instructions: Falls Ihre E-Mail-Adresse in unserer Datenbank existiert, werden Sie in wenigen Minuten eine E-Mail mit einem Link zum Zurücksetzen Ihres Passworts erhalten.
-      updated: Ihr Passwort wurde erfolgreich geändert. Sie sind nun angemeldet.
-      updated_not_active: Ihr Passwort wurde erfolgreich geändert.
     registrations:
-      destroyed: Auf Wiedersehen! Ihr Konto wurde erfolreich gekündigt. Wir hoffen Sie bald wiederzusehen.
       edit:
         are_you_sure: Sind Sie sicher?
         cancel_my_account: Konto löschen
@@ -77,17 +50,9 @@ de:
         we_need_your_current_password_to_confirm_your_changes: wir benötigen Ihr aktuelles Passwort, um die Änderung zu bestätigen
       new:
         sign_up: Registrieren
-      signed_up: Willkommen! Sie haben sich erfolgreich registriert.
-      signed_up_but_inactive: Sie haben sich erfolgreich registriert. Aber wir konnten Sie nicht anmelden, da Ihr Konto noch nicht aktiviert ist.
-      signed_up_but_locked: Sie haben sich erfolgreich registriert. Aber wir konnten Sie nicht anmelden, da Ihr Konto gesperrt ist.
-      signed_up_but_unconfirmed: Eine Nachricht mit einem Aktivierungs-Link wurde an Ihre E-Mail-Adresse geschickt. Bitte öffnen Sie diesen Link, um Ihr Konto zu aktivieren.
-      update_needs_confirmation: Ihr Konto wurde erfolgreich aktualisiert, aber wir müssen Ihre E-Mail-Adresse verifizieren. Bitte überprüfen Sie Ihre E-Mails und klicken auf den Bestätigungs-Link, um Ihre E-Mail-Adresse abschliessend zu bestätigen.
-      updated: Ihr Konto wurde erfolgreich aktualisiert.
     sessions:
       new:
         sign_in: Anmelden
-      signed_in: Erfolgreich angemeldet.
-      signed_out: Erfolgreich abgemeldet.
     shared:
       links:
         back: Zurück
@@ -100,16 +65,3 @@ de:
     unlocks:
       new:
         resend_unlock_instructions: Anleitung zum Entsperren noch mal schicken
-      send_instructions: Sie werden eine E-Mail mit der Anleitung, wie Sie Ihr Konto entsperren können, in wenigen Minuten erhalten.
-      send_paranoid_instructions: Falls Ihr Konto existiert, werden Sie eine E-Mail mit der Anleitung, wie Sie Ihr Konto entsperren können, in wenigen Minuten erhalten.
-      unlocked: Ihr Konto wurde erfolreich entsperrt. Bitte melden Sie sich an, um fortfahren zu können.
-  errors:
-    messages:
-      already_confirmed: wurde schon bestätigt - bitte versuchen Sie sich anzumelden
-      confirmation_period_expired: muss innerhalb %{period} bestätigt werden - bitte fordern Sie den Link erneut an
-      expired: ist ausgelaufen - bitte fordern Sie den Link erneut an
-      not_found: nicht gefunden
-      not_locked: war nicht gesperrt
-      not_saved:
-        one: '1 Fehler verhinderte, dass %{resource} gespeichert werden konnte:'
-        other: "%{count} Fehler verhinderten, dass %{resource} gespeichert werden konnte:"

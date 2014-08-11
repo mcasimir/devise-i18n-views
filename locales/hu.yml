@@ -3,9 +3,7 @@ hu:
     attributes:
       user:
         current_password: 
-        current_sign_in_at: 
         email: 
-        last_sign_in_at: 
         password: 
         password_confirmation: 
         remember_me: 
@@ -13,43 +11,24 @@ hu:
       user: 
   devise:
     confirmations:
-      confirmed: 
       new:
         resend_confirmation_instructions: Megerősítő levél újraküldése
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: Fiók megerősítése
         greeting: Kedves %{recipient}!
         instruction: 'A fiók megerősítéséhez rá kell kattintani az alábbi linkre:'
-        subject: A fiók megerősítéséhez szükséges teendők
       reset_password_instructions:
         action: Jelszó megváltoztatása
         greeting: Kedves %{recipient}!
         instruction: "Ön, vagy valaki más az ön nevében jelszóváltoztatást kérvényezett, mely a lenti linkre kattintva lehetséges."
         instruction_2: Amennyiben ön nem kezdeményezte a jelszavának megváltoztatását, kérem hagyja figyelmen kívül ezt a levelet.
         instruction_3: Amennyiben nem kattint az alábbi linkre, jelszava továbbra is ugyanaz marad, mint eddig.
-        subject: A jelszó megváltoztatásához szükséges teendők
       unlock_instructions:
         action: Zárolás feloldása
         greeting: Kedves %{recipient}!
         instruction: 'A zárolás feloldásához az alábbi linkre kell kattintani:'
         message: A felhasználói fiókja zárolva lett túl sok sikertelen belépési kísérlet miatt.
-        subject: Fiókzárolás feloldásához szükséges teendők
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: Jelszó megváltoztatása
@@ -59,13 +38,7 @@ hu:
       new:
         forgot_your_password: Elfelejtette a jelszavát?
         send_me_reset_password_instructions: Jelszóviszaállítási teendők küldése
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: Biztos benne?
         cancel_my_account: Fiók megszüntetése
@@ -77,17 +50,9 @@ hu:
         we_need_your_current_password_to_confirm_your_changes: a változtatás végrehajtásához szükséges a jelenlegi jelszó
       new:
         sign_up: Regisztráció
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: Belépés
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ hu:
     unlocks:
       new:
         resend_unlock_instructions: Feloldási teendők újraküldése
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 

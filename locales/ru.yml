@@ -3,9 +3,7 @@ ru:
     attributes:
       user:
         current_password: "Текущий пароль"
-        current_sign_in_at: "Вошел в "
         email: 
-        last_sign_in_at: "Последний раз входил в"
         password: "Пароль"
         password_confirmation: "Подтверждение пароля"
         remember_me: "Запомнить меня"
@@ -13,43 +11,24 @@ ru:
       user: "Пользователь"
   devise:
     confirmations:
-      confirmed: "Ваш аккаунт успешно активирован"
       new:
         resend_confirmation_instructions: "Выслать повторно письмо с активацией"
-      send_instructions: 
-      send_paranoid_instructions: 
-    failure:
-      already_authenticated: 
-      inactive: 
-      invalid: 
-      invalid_token: 
-      locked: 
-      not_found_in_database: 
-      timeout: 
-      unauthenticated: 
-      unconfirmed: 
     mailer:
       confirmation_instructions:
         action: "Активировать"
         greeting: "Привет %{recipient}!"
         instruction: "Вы можете активировать свою учетную запись, нажав ссылку снизу:"
-        subject: "Активация учетной записи"
       reset_password_instructions:
         action: "Изменить пароль"
         greeting: "Привет %{recipient}!"
         instruction: "Вы (или кто-то еще) запросили изменение пароля. Для изменение пароля нажимите ссылку ниже:"
         instruction_2: "Если вы не запрашивали изменение пароля - проигнорируйте это сообщение"
         instruction_3: "Ваш пароль не изменится пока вы не нажмете на ссылку и не введете новый."
-        subject: "Запрос на изменение пароля"
       unlock_instructions:
         action: "Разблокировать учетную запись"
         greeting: "Привет %{recipient}!"
         instruction: "Нажмите ссылку для активации учетной записи:"
         message: "Ваша учетная запись была заблокирована в связи с превышением лимита неудачных попыток входа."
-        subject: "Инструкции для разблокировки учетной записи"
-    omniauth_callbacks:
-      failure: 
-      success: 
     passwords:
       edit:
         change_my_password: "Изменить мой пароль"
@@ -59,13 +38,7 @@ ru:
       new:
         forgot_your_password: "Забыли пароль?"
         send_me_reset_password_instructions: "Выслать новый пароль"
-      no_token: 
-      send_instructions: 
-      send_paranoid_instructions: 
-      updated: 
-      updated_not_active: 
     registrations:
-      destroyed: 
       edit:
         are_you_sure: "Вы уверены?"
         cancel_my_account: "Удалить учетную запись"
@@ -77,17 +50,9 @@ ru:
         we_need_your_current_password_to_confirm_your_changes: "введите текущий пароль для подтверждения изменений"
       new:
         sign_up: "Регистрация"
-      signed_up: 
-      signed_up_but_inactive: 
-      signed_up_but_locked: 
-      signed_up_but_unconfirmed: 
-      update_needs_confirmation: 
-      updated: 
     sessions:
       new:
         sign_in: "Войти"
-      signed_in: 
-      signed_out: 
     shared:
       links:
         back: 
@@ -100,14 +65,3 @@ ru:
     unlocks:
       new:
         resend_unlock_instructions: "Выслать подтверждение заново"
-      send_instructions: 
-      send_paranoid_instructions: 
-      unlocked: 
-  errors:
-    messages:
-      already_confirmed: 
-      confirmation_period_expired: 
-      expired: 
-      not_found: 
-      not_locked: 
-      not_saved: 
