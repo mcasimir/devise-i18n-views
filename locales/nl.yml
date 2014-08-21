@@ -2,13 +2,13 @@ nl:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Huidig wachtwoord
+        email: Email
+        password: Wachtwoord
+        password_confirmation: Bevestig wachtword
+        remember_me: Ingelogd blijven
     models:
-      user: 
+      user: Gebruiker
   devise:
     confirmations:
       new:
@@ -42,7 +42,7 @@ nl:
       edit:
         are_you_sure: Weet u het zeker?
         cancel_my_account: Annuleer mijn account
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: 'Aan het wachten op de bevestiging voor: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: laat leeg als u het niet wilt wijzigen
         title: Bewerk %{resource}
         unhappy: Niet blij
@@ -55,7 +55,7 @@ nl:
         sign_in: Inloggen
     shared:
       links:
-        back: 
+        back: Terug
         didn_t_receive_confirmation_instructions: Geen bevestigingsmail ontvangen?
         didn_t_receive_unlock_instructions: Geen ontgrendel-instructies ontvangen?
         forgot_your_password: Wachtwoord vergeten?
