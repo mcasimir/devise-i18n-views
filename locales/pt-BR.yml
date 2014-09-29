@@ -2,11 +2,11 @@ pt-BR:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Senha atual
+        email: Email
+        password: Senha
+        password_confirmation: Confirme sua senha
+        remember_me: Lembre-se de mim
     models:
       user: 
   devise:
@@ -31,10 +31,10 @@ pt-BR:
         message: Sua conta foi bloqueada devido ao excessivo número de tentativas acesso inválidas.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_my_password: Alterar minha senha
+        change_your_password: Alterar sua senha
+        confirm_new_password: Confirme sua nova senha
+        new_password: Nova senha
       new:
         forgot_your_password: Esqueceu sua senha?
         send_me_reset_password_instructions: Enviar instruções para redefinição da senha
