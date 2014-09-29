@@ -5,7 +5,7 @@ nl:
         current_password: Huidig wachtwoord
         email: Email
         password: Wachtwoord
-        password_confirmation: Bevestig wachtword
+        password_confirmation: Bevestig wachtwoord
         remember_me: Ingelogd blijven
     models:
       user: Gebruiker
