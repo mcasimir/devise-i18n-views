@@ -8,7 +8,7 @@ pt-BR:
         password_confirmation: Confirme sua senha
         remember_me: Lembre-se de mim
     models:
-      user: 
+      user: Usuário
   devise:
     confirmations:
       new:
@@ -42,11 +42,11 @@ pt-BR:
       edit:
         are_you_sure: Você tem certeza?
         cancel_my_account: Cancelar minha conta
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: 'No momento esperando por: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: deixe em branco caso não queira alterá-la
         title: Editar %{resource}
-        unhappy: 
-        update: 
+        unhappy: Não está contente
+        update: Autalizar
         we_need_your_current_password_to_confirm_your_changes: precisamos da sua senha atual para confirmar suas mudanças
       new:
         sign_up: Inscrever-se
@@ -55,7 +55,7 @@ pt-BR:
         sign_in: Login
     shared:
       links:
-        back: 
+        back: Voltar
         didn_t_receive_confirmation_instructions: Não recebeu instruções de confirmação?
         didn_t_receive_unlock_instructions: Não recebeu instruções de desbloqueio?
         forgot_your_password: Equeceu sua senha?
