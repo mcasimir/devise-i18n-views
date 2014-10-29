@@ -6,18 +6,18 @@ sk:
         email: Email
         password: Heslo
         password_confirmation: Potvrdenie hesla
-        remember_me: Zapamätať ma
+        remember_me: Zapamätať si ma
     models:
-      user: Užívateľ
+      user: Používateľ
   devise:
     confirmations:
       new:
-        resend_confirmation_instructions: Poslať znovu potvrdzovacie inštrukcie
+        resend_confirmation_instructions: Preposlať potvrdzovacie inštrukcie
     mailer:
       confirmation_instructions:
         action: Potvrdiť môj účet
         greeting: Vitaj %{recipient}!
-        instruction: 'Môžete potvrdiť emailovú adresu vašeho účtu pomocou odkazu nižšie:'
+        instruction: 'Môžete potvrdiť emailovú adresu vášho účtu pomocou odkazu nižšie:'
       reset_password_instructions:
         action: Zmeniť moje heslo
         greeting: Ahoj %{recipient}!
@@ -27,7 +27,7 @@ sk:
       unlock_instructions:
         action: Odomknúť môj účet
         greeting: Ahoj %{recipient}!
-        instruction: 'Kliknite na odkaz nižsie, aby ste odomkli váš účet:'
+        instruction: 'Pre odomknutie vášho účtu kliknite na odkaz nižšie:'
         message: Vaše konto bolo zamknuté kvôli nadmernému počtu neúspešných prihlásení.
     passwords:
       edit:
@@ -40,7 +40,7 @@ sk:
         send_me_reset_password_instructions: Pošlite mi inštrukcie na obnovu hesla
     registrations:
       edit:
-        are_you_sure: Ste si istí?
+        are_you_sure: Ste si istý?
         cancel_my_account: Zrušiť môj účet
         currently_waiting_confirmation_for_email: 'Momentálne sa čaká na potvrdenie pre: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: nechajte prázdne ak to nechcete zmeniť
