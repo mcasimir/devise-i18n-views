@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["mcasimir"]
+  s.authors = ["mcasimir", "Jason Barnabe"]
   s.date = "2014-11-06"
-  s.description = "I18n support for devise views"
-  s.email = "maurizio.cas@gmail.com"
+  s.description = "Translatable views for devise and the translations that go with them"
+  s.email = "jason.barnabe@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
@@ -81,24 +81,24 @@ Gem::Specification.new do |s|
     s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_development_dependency(%q<rspec>, [">= 2.4.0"])
-      s.add_development_dependency(%q<bundler>, [">= 0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_development_dependency(%q<i18n-spec>, [">= 0"])
-      s.add_development_dependency(%q<localeapp>, [">= 0"])
+      s.add_development_dependency(%q<rspec>, ["~> 3.1"])
+      s.add_development_dependency(%q<bundler>, ["~> 1.7"])
+      s.add_development_dependency(%q<jeweler>, ["~> 2.0"])
+      s.add_development_dependency(%q<i18n-spec>, ["~> 0.6"])
+      s.add_development_dependency(%q<localeapp>, ["~> 0.8"])
     else
-      s.add_dependency(%q<rspec>, [">= 2.4.0"])
-      s.add_dependency(%q<bundler>, [">= 0"])
-      s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_dependency(%q<i18n-spec>, [">= 0"])
-      s.add_dependency(%q<localeapp>, [">= 0"])
+      s.add_dependency(%q<rspec>, ["~> 3.1"])
+      s.add_dependency(%q<bundler>, ["~> 1.7"])
+      s.add_dependency(%q<jeweler>, ["~> 2.0"])
+      s.add_dependency(%q<i18n-spec>, ["~> 0.6"])
+      s.add_dependency(%q<localeapp>, ["~> 0.8"])
     end
   else
-    s.add_dependency(%q<rspec>, [">= 2.4.0"])
-    s.add_dependency(%q<bundler>, [">= 0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-    s.add_dependency(%q<i18n-spec>, [">= 0"])
-    s.add_dependency(%q<localeapp>, [">= 0"])
+    s.add_dependency(%q<rspec>, ["~> 3.1"])
+    s.add_dependency(%q<bundler>, ["~> 1.7"])
+    s.add_dependency(%q<jeweler>, ["~> 2.0"])
+    s.add_dependency(%q<i18n-spec>, ["~> 0.6"])
+    s.add_dependency(%q<localeapp>, ["~> 0.8"])
   end
 end
 
