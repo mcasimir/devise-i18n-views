@@ -74,7 +74,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/mcasimir/devise-i18n-views"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.2.2"
+  s.rubygems_version = "2.4.2"
   s.summary = "I18n support for devise views"
 
   if s.respond_to? :specification_version then
