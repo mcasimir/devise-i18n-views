@@ -18,9 +18,9 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/mcasimir/devise-i18n-views"
   gem.license = "MIT"
   gem.summary = %Q{I18n support for devise views}
-  gem.description = %Q{I18n support for devise views}
-  gem.email = "maurizio.cas@gmail.com"
-  gem.authors = ["mcasimir"]
+  gem.description = %Q{Translatable views for devise and the translations that go with them}
+  gem.email = "jason.barnabe@gmail.com"
+  gem.authors = ["mcasimir", "Jason Barnabe"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
