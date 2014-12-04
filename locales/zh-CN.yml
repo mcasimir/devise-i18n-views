@@ -2,13 +2,13 @@ zh-CN:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: "当前的密码"
+        email: "邮箱地址"
+        password: "密码"
+        password_confirmation: "密码（确认）"
+        remember_me: "记住我"
     models:
-      user: 
+      user: "用户"
   devise:
     confirmations:
       new:
@@ -42,10 +42,10 @@ zh-CN:
       edit:
         are_you_sure: "你确定吗？"
         cancel_my_account: "取消我的帐户"
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: "等待 %{email} 的确认"
         leave_blank_if_you_don_t_want_to_change_it: "你不想去改变它，不需要填写"
         title: "修改 %{resource}"
-        unhappy: 
+        unhappy: "不喜欢"
         update: "更新"
         we_need_your_current_password_to_confirm_your_changes: "我们需要您的当前密码以确认您的更改"
       new:
@@ -55,7 +55,7 @@ zh-CN:
         sign_in: "登录"
     shared:
       links:
-        back: 
+        back: "返回"
         didn_t_receive_confirmation_instructions: "没有收到确认指令？"
         didn_t_receive_unlock_instructions: "没有收到解锁指令？"
         forgot_your_password: "忘记密码？"
