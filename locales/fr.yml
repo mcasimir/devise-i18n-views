@@ -57,7 +57,7 @@ fr:
       links:
         back: Retour
         didn_t_receive_confirmation_instructions: Vous n'avez pas reçu le courriel de confirmation ?
-        didn_t_receive_unlock_instructions: Vous n'avez pas reçu le courrielé de déblocage ?
+        didn_t_receive_unlock_instructions: Vous n'avez pas reçu le courriel de déblocage ?
         forgot_your_password: Mot de passe oublié ?
         sign_in: Connexion
         sign_in_with_provider: Connexion avec %{provider}
