@@ -2,11 +2,11 @@ ca:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Contrasenya actual
+        email: Email
+        password: Contrasenya
+        password_confirmation: Confirmar contrasenya
+        remember_me: Recordar-me
     models:
       user: Usuari
   devise:
@@ -42,7 +42,7 @@ ca:
       edit:
         are_you_sure: Estàs segur?
         cancel_my_account: Cancel·lar el meu compte
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: "Esperant confirmació de: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: deixa'l en blanc si no el vols canviar
         title: Editar %{resource}
         unhappy: Descontent
@@ -55,7 +55,7 @@ ca:
         sign_in: Iniciar sessió
     shared:
       links:
-        back: 
+        back: Tornar
         didn_t_receive_confirmation_instructions: No has rebut les instruccions de confirmació?
         didn_t_receive_unlock_instructions: No has rebut les instruccions de desbloqueig?
         forgot_your_password: Has oblidat la teva contrasenya?

@@ -2,13 +2,13 @@ es-ES:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Contraseña actual
+        email: Email
+        password: Contraseña
+        password_confirmation: Confirmar contraseña
+        remember_me: Recordarme
     models:
-      user: 
+      user: Usuario
   devise:
     confirmations:
       new:
@@ -42,7 +42,7 @@ es-ES:
       edit:
         are_you_sure: "¿Estás segur@?"
         cancel_my_account: Cancelar mi cuenta
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: "Esperando confirmación de: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: déjalo en blanco si no lo quieres cambiar
         title: Editar %{resource}
         unhappy: Descontento
@@ -55,7 +55,7 @@ es-ES:
         sign_in: Iniciar sesión
     shared:
       links:
-        back: 
+        back: Volver
         didn_t_receive_confirmation_instructions: "¿No has recibido las instrucciones de confirmación?"
         didn_t_receive_unlock_instructions: "¿No has recibido las instrucciones de desbloqueo?"
         forgot_your_password: "¿Olvidaste tu contraseña?"
