@@ -42,7 +42,7 @@ ca:
       edit:
         are_you_sure: Estàs segur?
         cancel_my_account: Cancel·lar el meu compte
-        currently_waiting_confirmation_for_email: "Esperant confirmació de: %{email}"
+        currently_waiting_confirmation_for_email: 'Esperant confirmació de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: deixa'l en blanc si no el vols canviar
         title: Editar %{resource}
         unhappy: Descontent

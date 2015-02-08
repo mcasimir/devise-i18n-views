@@ -42,7 +42,7 @@ es-ES:
       edit:
         are_you_sure: "¿Estás segur@?"
         cancel_my_account: Cancelar mi cuenta
-        currently_waiting_confirmation_for_email: "Esperando confirmación de: %{email}"
+        currently_waiting_confirmation_for_email: 'Esperando confirmación de: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: déjalo en blanco si no lo quieres cambiar
         title: Editar %{resource}
         unhappy: Descontento

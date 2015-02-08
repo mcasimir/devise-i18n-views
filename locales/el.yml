@@ -1,4 +1,14 @@
 el:
+  activerecord:
+    attributes:
+      user:
+        current_password: "Τρέχων κωδικός πρόσβασης"
+        email: "Ηλεκτρονική διεύθυνση"
+        password: "Κωδικός πρόσβασης"
+        password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
+        remember_me: "Απομνημόνευση"
+    models:
+      user: "Χρήστης"
   devise:
     confirmations:
       new:
@@ -20,24 +30,24 @@ el:
         instruction: "Πατήστε το σύνδεσμο παρακάτω για ξεκλείδωμα του λογαριασμού σας:"
         message: "Ο λογαριασμός σας έχει κλειδώσει λόγω μεγάλου αριθμού ανεπιτυχών προσθαθειών σύνδεσης."
     passwords:
+      edit:
+        change_my_password: "Αλλαγή του κωδικού πρόσβασής μου"
+        change_your_password: "Αλλάξτε τον κωδικό πρόσβασής σας"
+        confirm_new_password: "Επιβεβαίωση νέου κωδικού πρόσβασης"
+        new_password: "Νέος κωδικός πρόσβασης"
       new:
         forgot_your_password: "Ξεχάσατε τον κωδικό σας;"
         send_me_reset_password_instructions: "Στείλτε μου οδηγίες επαναφοράς κωδικού πρόσβασης"
-      edit:
-        change_your_password: "Αλλάξτε τον κωδικό πρόσβασής σας"
-        new_password: "Νέος κωδικός πρόσβασης"
-        confirm_new_password: "Επιβεβαίωση νέου κωδικού πρόσβασης"
-        change_my_password: "Αλλαγή του κωδικού πρόσβασής μου"
     registrations:
       edit:
         are_you_sure: "Είστε σίγουρος/η;"
         cancel_my_account: "Ακύρωση του λογαρισμού μου"
-        leave_blank_if_you_don_t_want_to_change_it: "αφήστε το κενό, αν δεν θέλετε να το αλλάξετε"
         currently_waiting_confirmation_for_email: "Αναμένεται επιβεβαίωση για: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "αφήστε το κενό, αν δεν θέλετε να το αλλάξετε"
         title: "Επεξεργασία %{resource}"
-        we_need_your_current_password_to_confirm_your_changes: "χρειαζόμαστε τον τρέχων κωδικό πρόσβασής σας για να επιβεβαιώσουμε τις αλλαγές σας"
-        update: "Ενημέρωση"
         unhappy: "Δυστυχής"
+        update: "Ενημέρωση"
+        we_need_your_current_password_to_confirm_your_changes: "χρειαζόμαστε τον τρέχων κωδικό πρόσβασής σας για να επιβεβαιώσουμε τις αλλαγές σας"
       new:
         sign_up: "Εγγραφή"
     sessions:
@@ -55,13 +65,3 @@ el:
     unlocks:
       new:
         resend_unlock_instructions: "Επανάληψη αποστολής οδηγιών ξεκλειδώματος"
-  activerecord:
-    models:
-      user: "Χρήστης"
-    attributes:
-      user:
-        email: "Ηλεκτρονική διεύθυνση"
-        password: "Κωδικός πρόσβασης"
-        password_confirmation: "Επιβεβαίωση κωδικού πρόσβασης"
-        current_password: "Τρέχων κωδικός πρόσβασης"
-        remember_me: "Απομνημόνευση"
