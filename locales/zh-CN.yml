@@ -2,17 +2,17 @@ zh-CN:
   activerecord:
     attributes:
       user:
-        current_password: "当前的密码"
-        email: "邮箱地址"
+        current_password: "当前密码"
+        email: "电子邮箱"
         password: "密码"
-        password_confirmation: "密码（确认）"
+        password_confirmation: "密码确认"
         remember_me: "记住我"
     models:
       user: "用户"
   devise:
     confirmations:
       new:
-        resend_confirmation_instructions: "重新发送确认指示"
+        resend_confirmation_instructions: "重新发送确认邮件"
     mailer:
       confirmation_instructions:
         action: "确认我的帐户"
@@ -21,14 +21,14 @@ zh-CN:
       reset_password_instructions:
         action: "更改我的密码"
         greeting: "你好 %{recipient}!"
-        instruction: "有人要求更改密码的链接，并通过下面的链接，你可以做到这一点。"
-        instruction_2: "如果你没有要求，请忽略此电子邮件。"
-        instruction_3: "您的密码将不会改变，直到你访问上面的链接，并创建一个新的。"
+        instruction: "有人要求更改密码的链接，您可以通过下面的链接更改密码："
+        instruction_2: "如果您没有要求请求更改密码，请忽略此电子邮件。"
+        instruction_3: "如果你没有访问上面的链接并更改密码，你的密码就不会被改变。"
       unlock_instructions:
         action: "帐户解锁"
         greeting: "你好 %{recipient}!"
         instruction: "点击下面的链接到您的帐户解锁:"
-        message: "您的帐户已被锁定由于过量的不成功的登录尝试。"
+        message: "由于多次的不成功的登入尝试，您的帐户已被锁定。"
     passwords:
       edit:
         change_my_password: "更改我的密码"
@@ -37,7 +37,7 @@ zh-CN:
         new_password: "新密码"
       new:
         forgot_your_password: "忘记密码？"
-        send_me_reset_password_instructions: "给我发送重设密码的说明"
+        send_me_reset_password_instructions: "请给我发送重设密码的邮件"
     registrations:
       edit:
         are_you_sure: "你确定吗？"
@@ -56,12 +56,12 @@ zh-CN:
     shared:
       links:
         back: "返回"
-        didn_t_receive_confirmation_instructions: "没有收到确认指令？"
-        didn_t_receive_unlock_instructions: "没有收到解锁指令？"
+        didn_t_receive_confirmation_instructions: "没有收到确认邮件？"
+        didn_t_receive_unlock_instructions: "没有收到解锁邮件？"
         forgot_your_password: "忘记密码？"
         sign_in: "登录"
         sign_in_with_provider: "用 %{provider} 登录"
         sign_up: "注册"
     unlocks:
       new:
-        resend_unlock_instructions: "重发解锁指示"
+        resend_unlock_instructions: "重发解锁邮件"
