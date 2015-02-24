@@ -11,8 +11,21 @@ sk:
       user: Používateľ
   devise:
     confirmations:
+      confirmed: "Vaša e-mailová adresa bola úspešne potvrdená."
+      send_instructions: "V priebehu niekoľkých minút dostanete e-mail s pokynmi ako potvrdiť Vašu e-mailovú adresu."
+      send_paranoid_instructions: "Ak je Vaša e-mailová adresa v našej databáze, dostanete v priebehu niekoľkých minút e-mail s pokynmi ako potvrdiť Vašu e-mailovú adresu."
       new:
         resend_confirmation_instructions: Preposlať potvrdzovacie inštrukcie
+    failure:
+      already_authenticated: "Už ste prihlásení."
+      inactive: "Váš účet ešte nie je aktivovaný."
+      invalid: "Heslo alebo %{authentication_keys} sú neplatné."
+      locked: "Váš účet je zamknutý."
+      last_attempt: "Ešte máte jeden pokus než bude Váš účet zamknutý."
+      not_found_in_database: "Heslo alebo %{authentication_keys} sú neplatné."
+      timeout: "Vaše sedenie vypršalo. Pre pokračovanie sa opäť prihláste."
+      unauthenticated: "Skôr ako budete pokračovať, musíte sa prihlásiť alebo registrovať."
+      unconfirmed: "Skôr ako budete pokračovať, musíťe potvrdiť Váš e-mail."
     mailer:
       confirmation_instructions:
         action: Potvrdiť môj účet
