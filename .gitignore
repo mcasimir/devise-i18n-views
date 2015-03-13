@@ -51,3 +51,6 @@ pkg
 
 # For RubyMine
 .idea
+
+.ruby-gemset
+.ruby-version
