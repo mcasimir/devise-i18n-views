@@ -34,7 +34,7 @@ GEM
       nokogiri (>= 1.5.10)
       rake
       rdoc
-    json (1.7.3)
+    json (1.8.2)
     jwt (1.0.0)
     localeapp (0.9.0)
       gli
@@ -86,5 +86,6 @@ DEPENDENCIES
   bundler (~> 1.7)
   i18n-spec (~> 0.6)
   jeweler (~> 2.0)
+  json (>= 1.8.2)
   localeapp (~> 0.8)
   rspec (~> 3.1)
