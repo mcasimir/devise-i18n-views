@@ -1,5 +1,5 @@
 p
-  = t('.greeting', :recipient => @resource.email, default: "Hello #{@resource.email}!")
+  = t('.greeting', recipient: @resource.email, default: "Hello #{@resource.email}!")
   /= t('.greeting', default: "Hello)
   /= @resource.email
   /| !
