@@ -2,13 +2,13 @@ hu:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Jelenlegi jelszó
+        email: E-mail
+        password: Jelszó
+        password_confirmation: Jelszó megerősítése 
+        remember_me: Megjegyez
     models:
-      user: 
+      user: Felhasználó
   devise:
     confirmations:
       new:
@@ -42,7 +42,7 @@ hu:
       edit:
         are_you_sure: Biztos benne?
         cancel_my_account: Fiók megszüntetése
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: "Még várjuk a következő e-mail cím megerősítését: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
         title: "%{resource} módosítása"
         unhappy: Szomorú
@@ -55,7 +55,7 @@ hu:
         sign_in: Belépés
     shared:
       links:
-        back: 
+        back: Vissza
         didn_t_receive_confirmation_instructions: Nem kapta meg a megerősítő levelet?
         didn_t_receive_unlock_instructions: Nem kapta meg a feloldáshoz a levelet?
         forgot_your_password: Elfelejtette a jelszavát?
