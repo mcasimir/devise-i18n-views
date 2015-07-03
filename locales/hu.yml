@@ -5,7 +5,7 @@ hu:
         current_password: Jelenlegi jelszó
         email: E-mail
         password: Jelszó
-        password_confirmation: Jelszó megerősítése 
+        password_confirmation: Jelszó megerősítése
         remember_me: Megjegyez
     models:
       user: Felhasználó
@@ -42,7 +42,7 @@ hu:
       edit:
         are_you_sure: Biztos benne?
         cancel_my_account: Fiók megszüntetése
-        currently_waiting_confirmation_for_email: "Még várjuk a következő e-mail cím megerősítését: %{email}"
+        currently_waiting_confirmation_for_email: 'Még várjuk a következő e-mail cím megerősítését: %{email}'
         leave_blank_if_you_don_t_want_to_change_it: csak változás esetén kitöltendő
         title: "%{resource} módosítása"
         unhappy: Szomorú
