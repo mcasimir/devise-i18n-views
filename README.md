@@ -28,6 +28,10 @@ The `devise:views:i18n_templates` generator will copy all views to your applicat
 rails g devise:views:i18n_templates
 ```
 
+If you're using [slim](https://github.com/slim-template/slim-rails) [simple_form](https://github.com/plataformatec/simple_form) and [twitter bootstrap 3](http://getbootstrap.com/) in your rails project and thus want a devise view template written with them, you can run command like this:
+
+rails g devise:views:i18n_templates:slim_simple_form_bootstrap
+
 ## Contributing to devise-i18n-views
 ### with Localeapp
 
