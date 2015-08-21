@@ -1,4 +1,14 @@
 he:
+  activerecord:
+    attributes:
+      user:
+        current_password: "סיסמא נוכחית"
+        email: "אימייל"
+        password: "סיסמא"
+        password_confirmation: "אישור סיסמא"
+        remember_me: "זכור אותי"
+    models:
+      user: "משתמש"
   devise:
     confirmations:
       new:
@@ -20,24 +30,24 @@ he:
         instruction: "לחץ על הלינק המוצג למטה בכדי לבטל את נעילת חשבונך:"
         message: "חשבונך ננעל עקב מספר רב של ניסיונות כניסה כושלים."
     passwords:
+      edit:
+        change_my_password: "שנה סיסמא"
+        change_your_password: "שינוי סיסמא"
+        confirm_new_password: "אישור סיסמא חדשה"
+        new_password: "סיסמא חדשה"
       new:
         forgot_your_password: "שכחת סיסמא?"
         send_me_reset_password_instructions: "שלח לי הוראות שיחזור סיסמא"
-      edit:
-        change_your_password: "שינוי סיסמא"
-        new_password: "סיסמא חדשה"
-        confirm_new_password: "אישור סיסמא חדשה"
-        change_my_password: "שנה סיסמא"
     registrations:
       edit:
         are_you_sure: "האם את בטוח?"
         cancel_my_account: "בטל את החשבון שלי"
-        leave_blank_if_you_don_t_want_to_change_it: "השאר ריק אם אין ברצונך לשנותו"
         currently_waiting_confirmation_for_email: "ממתין לאישור של הכתובת: %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "השאר ריק אם אין ברצונך לשנותו"
         title: "ערוך %{resource}"
-        we_need_your_current_password_to_confirm_your_changes: "אנחנו זקוקים לסיסמאתך הנוכחית על מנת לבצע את השינויים שביקשת"
-        update: "עדכן"
         unhappy: "עצוב"
+        update: "עדכן"
+        we_need_your_current_password_to_confirm_your_changes: "אנחנו זקוקים לסיסמאתך הנוכחית על מנת לבצע את השינויים שביקשת"
       new:
         sign_up: "הרשמה"
     sessions:
@@ -55,13 +65,3 @@ he:
     unlocks:
       new:
         resend_unlock_instructions: "שלח שוב הוראות ביטול נעילה"
-  activerecord:
-    models:
-      user: "משתמש"
-    attributes:
-      user:
-        email: "אימייל"
-        password: "סיסמא"
-        password_confirmation: "אישור סיסמא"
-        current_password: "סיסמא נוכחית"
-        remember_me: "זכור אותי"

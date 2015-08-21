@@ -2,13 +2,13 @@ it:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Password corrente
+        email: Email
+        password: Password
+        password_confirmation: Conferma password
+        remember_me: Ricordami
     models:
-      user: 
+      user: Utente
   devise:
     confirmations:
       new:
@@ -32,9 +32,9 @@ it:
     passwords:
       edit:
         change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
-        new_password: 
+        change_your_password: Cambia la tua password
+        confirm_new_password: Conferma la nuova password
+        new_password: Nuova password
       new:
         forgot_your_password: Password dimenticata?
         send_me_reset_password_instructions: Inviami le istruzioni per resettare la password
@@ -55,7 +55,7 @@ it:
         sign_in: Accedi
     shared:
       links:
-        back: 
+        back: Indietro
         didn_t_receive_confirmation_instructions: Non hai ricevuto le istruzioni per la conferma?
         didn_t_receive_unlock_instructions: Non hai ricevuto le istruzioni per lo sblocco?
         forgot_your_password: Password dimenticata?
