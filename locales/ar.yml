@@ -5,7 +5,7 @@
         resend_confirmation_instructions: "أعدْ إرسال تعليمات التأكيد"
     mailer:
       confirmation_instructions:
-        action: "أكّد حسابك"
+        action: "أكّد حسابي"
         greeting: "مرحبا %{recipient}"
         instruction: "يمكن تأكيد حساب بريدك الإلكتروني من خلال الرابط التّالي:"
       reset_password_instructions:
