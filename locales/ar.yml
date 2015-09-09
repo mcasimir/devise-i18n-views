@@ -1,4 +1,14 @@
-﻿ar:
+ar:
+  activerecord:
+    attributes:
+      user:
+        current_password: "كلمة المرور الحالية"
+        email: "البريد الإلكتروني"
+        password: "كلمة المرود"
+        password_confirmation: "تأكيد كلمة المرور"
+        remember_me: "تذكرني"
+    models:
+      user: "المستخدم"
   devise:
     confirmations:
       new:
@@ -20,24 +30,24 @@
         instruction: "انقرْ الرابط على الرابط التالي لفك الحظر عن حسابك:"
         message: "قُفل حسابك بسبب المحاولات الفاشلة في تسجيل الدخول."
     passwords:
+      edit:
+        change_my_password: "غيّر كلمة المرور خاصتي"
+        change_your_password: "غيّر كلمة المرور الخاصة بك"
+        confirm_new_password: "أكّد كلمة السر الجديدة"
+        new_password: "كلمة سر جديدة"
       new:
         forgot_your_password: "هل نسيت كلمة المرور؟"
         send_me_reset_password_instructions: "أرسلْ لي تعليمات تصفير كلمة المرور"
-      edit:
-        change_your_password: "غيّر كلمة المرور الخاصة بك"
-        new_password: "كلمة سر جديدة"
-        confirm_new_password: "أكّد كلمة السر الجديدة"
-        change_my_password: "غيّر كلمة المرور خاصتي"
     registrations:
       edit:
         are_you_sure: "هل أنت متأكّد؟"
         cancel_my_account: "ألغِ حسابي"
-        leave_blank_if_you_don_t_want_to_change_it: "أبقه فارغًا إن كنت لا ترغب في تغييره"
         currently_waiting_confirmation_for_email: "في انتظار تفعيل البريد الإلكتروني %{email}"
+        leave_blank_if_you_don_t_want_to_change_it: "أبقه فارغًا إن كنت لا ترغب في تغييره"
         title: "تعديل %{resource}"
-        we_need_your_current_password_to_confirm_your_changes: "نحتاج كلمة المرور الحالية خاصتك لتأكيد تغيراتك"
-        update: "تحديث"
         unhappy: "غير راضٍ؟"
+        update: "تحديث"
+        we_need_your_current_password_to_confirm_your_changes: "نحتاج كلمة المرور الحالية خاصتك لتأكيد تغيراتك"
       new:
         sign_up: "سجّلْ"
     sessions:
@@ -55,13 +65,3 @@
     unlocks:
       new:
         resend_unlock_instructions: "أعدْ إرسال تعليمات فك الحظر"
-  activerecord:
-    models:
-      user: "المستخدم"
-    attributes:
-      user:
-        email: "البريد الإلكتروني"
-        password: "كلمة المرود"
-        password_confirmation: "تأكيد كلمة المرور"
-        current_password: "كلمة المرور الحالية"
-        remember_me: "تذكرني"

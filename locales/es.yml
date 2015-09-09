@@ -59,8 +59,8 @@ es:
         didn_t_receive_confirmation_instructions: "¿No ha recibido las instrucciones de confirmación?"
         didn_t_receive_unlock_instructions: No ha recibido instrucciones para desbloquear?
         forgot_your_password: "¿Ha olvidado su contraseña?"
-        sign_in: Iniciar sésion
-        sign_in_with_provider: Iniciar sésion con %{provider}
+        sign_in: Iniciar sesión
+        sign_in_with_provider: Iniciar sesión con %{provider}
         sign_up: Registrarse
     unlocks:
       new:

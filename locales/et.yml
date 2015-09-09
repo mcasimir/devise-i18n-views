@@ -33,8 +33,8 @@ et:
       edit:
         change_my_password: Muuda parooli
         change_your_password: Muuda oma parool
-        confirm_new_password: Kinnita uus paroo
-        new_password: Uus paroo
+        confirm_new_password: Kinnita uus parool
+        new_password: Uus parool
       new:
         forgot_your_password: Unustasid oma parooli?
         send_me_reset_password_instructions: Saada parooli ennistamise juhend
