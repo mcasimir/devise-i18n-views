@@ -37,7 +37,7 @@ fi:
         new_password: 
       new:
         forgot_your_password: Unohditko salasanasi?
-        send_me_reset_password_instructions: Lähetä minulle salasanan vaihto -ohjeet
+        send_me_reset_password_instructions: Lähetä minulle salasanan vaihto-ohjeet
     registrations:
       edit:
         are_you_sure: Oletko varma?
