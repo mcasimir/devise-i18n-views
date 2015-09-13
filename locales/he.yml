@@ -45,7 +45,7 @@ he:
         currently_waiting_confirmation_for_email: "ממתין לאישור של הכתובת: %{email}"
         leave_blank_if_you_don_t_want_to_change_it: "השאר ריק אם אין ברצונך לשנותו"
         title: "ערוך %{resource}"
-        unhappy: "עצוב"
+        unhappy: "לא מרוצה"
         update: "עדכן"
         we_need_your_current_password_to_confirm_your_changes: "אנחנו זקוקים לסיסמאתך הנוכחית על מנת לבצע את השינויים שביקשת"
       new:
