@@ -2,13 +2,13 @@ tr:
   activerecord:
     attributes:
       user:
-        current_password: 
-        email: 
-        password: 
-        password_confirmation: 
-        remember_me: 
+        current_password: Geçerli Parola
+        email: E-Posta
+        password: Parola
+        password_confirmation: Parola Doğrulama
+        remember_me: Beni Hatırla
     models:
-      user: 
+      user: Kullanıcı
   devise:
     confirmations:
       new:
@@ -31,9 +31,9 @@ tr:
         message: Hesabınız çok fazla başarısız giriş denemesinden dolayı kilitlenmiştir.
     passwords:
       edit:
-        change_my_password: 
-        change_your_password: 
-        confirm_new_password: 
+        change_my_password: Şifremi değiştir
+        change_your_password: Şifreni değiştir
+        confirm_new_password: Yeni parolanı doğrula
         new_password: 
       new:
         forgot_your_password: Parolanızı mı unuttunuz?
@@ -45,8 +45,8 @@ tr:
         currently_waiting_confirmation_for_email: 
         leave_blank_if_you_don_t_want_to_change_it: değiştirmek istemiyorsanız boş bırakın
         title: "%{resource} düzenle"
-        unhappy: 
-        update: 
+        unhappy: Mutsuz
+        update: Güncelle
         we_need_your_current_password_to_confirm_your_changes: değişikleri onaylamak için şu anki parolanız gerekli
       new:
         sign_up: Kaydol
@@ -55,7 +55,7 @@ tr:
         sign_in: Giriş yap
     shared:
       links:
-        back: 
+        back: Geri
         didn_t_receive_confirmation_instructions: Onaylama talimatlarını almadınız mı?
         didn_t_receive_unlock_instructions: Hesap geri açma talimatlarını almadınız mı?
         forgot_your_password: Parolanızı mı unuttunuz?
