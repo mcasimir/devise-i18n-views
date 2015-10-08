@@ -74,7 +74,7 @@ Gem::Specification.new do |s|
     "locales/sk.yml",
     "locales/th.yml",
     "locales/tr.yml",
-    "locales/uk-UA.yml",
+    "locales/uk.yml",
     "locales/vi.yml",
     "locales/zh-CN.yml",
     "locales/zh-TW.yml",
