@@ -63,6 +63,7 @@ Gem::Specification.new do |s|
     "locales/hu.yml",
     "locales/it.yml",
     "locales/ja.yml",
+    "locales/ko.yml",
     "locales/lv.yml",
     "locales/nb.yml",
     "locales/nl.yml",
