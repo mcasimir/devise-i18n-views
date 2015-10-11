@@ -6,7 +6,7 @@ zh-CN:
         email: "电子邮箱"
         password: "密码"
         password_confirmation: "密码确认"
-        remember_me: "记住我"
+        remember_me: "记忆登录讯息"
     models:
       user: "用户"
   devise:
