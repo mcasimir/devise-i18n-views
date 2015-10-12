@@ -31,8 +31,8 @@ tr:
         message: Hesabınız çok fazla başarısız giriş denemesinden dolayı kilitlenmiştir.
     passwords:
       edit:
-        change_my_password: Şifremi değiştir
-        change_your_password: Şifreni değiştir
+        change_my_password: "Şifremi değiştir"
+        change_your_password: "Şifreni değiştir"
         confirm_new_password: Yeni parolanı doğrula
         new_password: 
       new:
