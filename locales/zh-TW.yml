@@ -42,10 +42,10 @@ zh-TW:
       edit:
         are_you_sure: "你確定嗎？"
         cancel_my_account: "取消我的帳戶"
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: "等待 %{email} 的確認"
         leave_blank_if_you_don_t_want_to_change_it: "不想修改的話就不需要填寫這個欄位"
         title: "修改 %{resource}"
-        unhappy: 
+        unhappy: "不喜歡"
         update: "更新"
         we_need_your_current_password_to_confirm_your_changes: "我們需要您的目前的密碼以確認您的更改"
       new:
@@ -55,7 +55,7 @@ zh-TW:
         sign_in: "登入"
     shared:
       links:
-        back: 
+        back: "返回"
         didn_t_receive_confirmation_instructions: "沒有收到確認信件？"
         didn_t_receive_unlock_instructions: "沒有收到解鎖信件？"
         forgot_your_password: "忘記密碼？"
