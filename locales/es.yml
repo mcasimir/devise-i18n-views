@@ -52,7 +52,7 @@ es:
         sign_up: Registrarse
     sessions:
       new:
-        sign_in: Iniciar sésion
+        sign_in: Iniciar sesión
     shared:
       links:
         back: Atrás
