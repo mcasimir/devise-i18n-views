@@ -34,7 +34,7 @@ tr:
         change_my_password: "Şifremi değiştir"
         change_your_password: "Şifreni değiştir"
         confirm_new_password: Yeni parolanı doğrula
-        new_password: 
+        new_password: Yeni Parola
       new:
         forgot_your_password: Parolanızı mı unuttunuz?
         send_me_reset_password_instructions: Parola yenileme talimatlarını gönder
@@ -42,7 +42,7 @@ tr:
       edit:
         are_you_sure: Emin misiniz?
         cancel_my_account: Hesabımı iptal et
-        currently_waiting_confirmation_for_email: 
+        currently_waiting_confirmation_for_email: 'Doğrulama için bekleniyor : %{email}'
         leave_blank_if_you_don_t_want_to_change_it: değiştirmek istemiyorsanız boş bırakın
         title: "%{resource} düzenle"
         unhappy: Mutsuz
