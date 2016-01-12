@@ -6,7 +6,7 @@ pt-BR:
         email: Email
         password: Senha
         password_confirmation: Confirme sua senha
-        remember_me: Lembre-se de mim
+        remember_me: Lembra senha
     models:
       user: Usuário
   devise:
