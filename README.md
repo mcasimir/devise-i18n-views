@@ -1,3 +1,5 @@
+**devise-i18n-views has been merged into [devise-i18n](https://github.com/tigrish/devise-i18n). You should stop using devise-i18n-views and start using devise-i18n 1.0.0 or later. There will be no further releases of devise-i18n-views.**
+
 # devise-i18n-views
 
 If you're not familiar, [Devise](https://github.com/plataformatec/devise) "is a flexible authentication solution for Rails based on Warden". [Internationalization (aka i18n)](http://en.wikipedia.org/wiki/I18n) is a "means of adapting computer software to different languages, regional differences and technical requirements of a target market".
