@@ -23,7 +23,7 @@ pt-PT:
         greeting: Olá %{recipient}!
         instruction: Foi efectuado um pedido para repor a sua palavra-passe. Para o fazer click no link abaixo.
         instruction_2: Se não fez este pedido, por favor ignore este e-mail.
-        instruction_3: A sua palavra-passe só será alterada quando aceder ao link abaixo para a alterar.
+        instruction_3: A sua palavra-passe só será alterada quando aceder ao link acima para a alterar.
       unlock_instructions:
         action: Desbloquear a minha conta
         greeting: Olá %{recipient}!
