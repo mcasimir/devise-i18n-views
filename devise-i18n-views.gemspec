@@ -86,10 +86,10 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.4.6"
   s.summary = "I18n support for devise views"
 
-  if s.respond_to? :specification_version then
+  if s.respond_to? :specification_version
     s.specification_version = 4
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0')
       s.add_development_dependency(%q<rspec>, ["~> 3.1"])
       s.add_development_dependency(%q<bundler>, ["~> 1.7"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0"])
