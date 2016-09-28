@@ -2,7 +2,7 @@ require 'rails'
 module DeviseI18nViews
   class Engine < ::Rails::Engine
   end
-  
+
   class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'rails-i18n-views' do |app|
       DeviseI18nViews::Railtie.instance_eval do
@@ -10,14 +10,16 @@ module DeviseI18nViews
 
         files = Dir[File.join(File.dirname(__FILE__), '../locales', "#{pattern}.yml")]
         I18n.load_path.concat(files)
-      end      
+      end
     end
-    
-    protected
 
-    def self.pattern_from(args)
-      array = Array(args || [])
-      array.blank? ? '*' : "{#{array.join ','}}"
-    end                
+    class << self
+      protected
+
+      def pattern_from(args)
+        array = Array(args || [])
+        array.blank? ? '*' : "{#{array.join ','}}"
+      end
+    end
   end
 end
