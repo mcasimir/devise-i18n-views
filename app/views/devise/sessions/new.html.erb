@@ -1,14 +1,14 @@
 <h2><%= t('.sign_in', :default => "Sign in") %></h2>
 
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div><%= f.label :email %><br />
+  <div><%= f.label :email, t('.email', :default => "Email")  %><br />
   <%= f.email_field :email %></div>
 
-  <div><%= f.label :password %><br />
+  <div><%= f.label :password, t('.password', :default => "Password") %><br />
   <%= f.password_field :password %></div>
 
   <% if devise_mapping.rememberable? -%>
-    <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+    <div><%= f.check_box :remember_me %> <%= f.label :remember_me, t('.remember_me', :default => "Remember me") %></div>
   <% end -%>
 
   <div><%= f.submit t('.sign_in', :default => "Sign in") %></div>
