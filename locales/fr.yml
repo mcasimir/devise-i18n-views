@@ -53,6 +53,9 @@ fr:
     sessions:
       new:
         sign_in: Connexion
+        remember_me: Se souvenir de moi
+        password: Mot de passe
+        email: Email
     shared:
       links:
         back: Retour
