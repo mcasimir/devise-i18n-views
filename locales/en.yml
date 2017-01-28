@@ -43,6 +43,7 @@ en:
     sessions:
       new:
         sign_in: "Sign in"
+      destroy: "Sign out"
     shared:
       links:
         back: "Back"
