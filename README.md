@@ -31,6 +31,15 @@ The `devise:views:i18n_templates` generator will copy all devise-i18n-views's vi
 ``` sh
 rails g devise:views:i18n_templates
 ```
+
+If you're using [slim](https://github.com/slim-template/slim-rails) [simple_form](https://github.com/plataformatec/simple_form) and [foundation](https://github.com/zurb/foundation-rails) gems in your rails project and thus want a devise view template written with them, you can run command like this:
+
+``` sh
+rails g devise:views:i18n_templates:slim_simple_form_foundation
+```
+
+
+
 You should only do this if you really need to, though, because doing this will make it so that you won't get the updated views should they change in a future version of `devise-i18n-views`. To "uncustomize" the views, just delete them, and your app will go back to grabbing devise-i18n-views's default views.
 
 ## Customizating Translations
