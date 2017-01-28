@@ -9,7 +9,7 @@ module DeviseI18nViews
         pattern = pattern_from app.config.i18n.available_locales
 
         files = Dir[File.join(File.dirname(__FILE__), '../locales', "#{pattern}.yml")]
-        I18n.load_path.concat(files)
+        I18n.load_path.unshift(*files)
       end      
     end
     
