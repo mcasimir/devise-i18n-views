@@ -65,3 +65,8 @@ en:
         password_confirmation: "Password confirmation"
         current_password: "Current password"
         remember_me: "Remember me"
+        sign_in_count: "Sign in count"
+        current_sign_in_at: "Signed in at"
+        last_sign_in_at: "Last sign in at"
+        current_sign_in_ip: "Signed in from IP"
+        last_sign_in_ip: "Last sign in from IP"
