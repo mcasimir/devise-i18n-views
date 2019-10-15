@@ -6,6 +6,8 @@ GEM
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
     faraday (0.9.0)
       multipart-post (>= 1.2, < 3)
     git (1.2.8)
@@ -20,6 +22,9 @@ GEM
     gli (2.12.2)
     hashie (3.3.1)
     highline (1.6.21)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
     i18n (0.6.11)
     i18n-spec (0.6.0)
       iso
@@ -43,12 +48,14 @@ GEM
       rack
       rest-client
       ya2yaml
-    mime-types (2.4.3)
+    mime-types (3.3)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
     mini_portile (0.6.1)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    netrc (0.8.0)
+    netrc (0.11.0)
     nokogiri (1.6.4)
       mini_portile (~> 0.6.0)
     oauth2 (1.0.0)
@@ -61,9 +68,11 @@ GEM
     rake (10.3.2)
     rdoc (4.1.2)
       json (~> 1.4)
-    rest-client (1.7.2)
-      mime-types (>= 1.16, < 3.0)
-      netrc (~> 0.7)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -77,6 +86,9 @@ GEM
       rspec-support (~> 3.1.0)
     rspec-support (3.1.2)
     thread_safe (0.3.4)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
     ya2yaml (0.31)
 
 PLATFORMS
