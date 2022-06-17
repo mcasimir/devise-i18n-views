@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.3.6)
     builder (3.2.2)
+    concurrent-ruby (1.1.10)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     diff-lcs (1.2.5)
@@ -20,7 +21,8 @@ GEM
     gli (2.12.2)
     hashie (3.3.1)
     highline (1.6.21)
-    i18n (0.6.11)
+    i18n (1.10.0)
+      concurrent-ruby (~> 1.0)
     i18n-spec (0.6.0)
       iso
     iso (0.2.1)
